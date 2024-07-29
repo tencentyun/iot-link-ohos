@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "SdkdemoAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "SdkdemoAbility_label",
+      "value": "label"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+import { Signer } from "../m1"; import type { SignAlg } from "../p1"; export declare class HuksAsySigner extends Signer { constructor(d48: SignAlg, keyAlias: string); } 

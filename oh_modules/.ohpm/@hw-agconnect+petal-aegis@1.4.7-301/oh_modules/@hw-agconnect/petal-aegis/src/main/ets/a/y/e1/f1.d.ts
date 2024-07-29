@@ -1,0 +1,1 @@
+import type { CipherHandler } from "./b2"; import type { CipherAlg } from "./i1"; export declare abstract class Cipher { protected cipherAlg: CipherAlg; protected encryptHandler: CipherHandler; protected decryptHandler: CipherHandler; constructor(a45: CipherAlg); getEncryptHandler(): CipherHandler; getDecryptHandler(): CipherHandler; } 

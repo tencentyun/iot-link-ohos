@@ -1,0 +1,1 @@
+export declare class SafeRandom { private static TAG; static ohAegRandom(len: number): Uint8Array; static ohAegRandomHex(len: number): string; static ohAegRandomNum(len: number): string; } 

@@ -1,0 +1,1 @@
+import type { KeyType } from "../z/a1"; export interface HuksImportKeyParams { alias: string; type: KeyType; data: Uint8Array; } export declare class HuksUtil { static importKey(param: HuksImportKeyParams): Promise<void>; static importECDHWrappedKey(param: HuksImportKeyParams, b46: string): Promise<void>; } 

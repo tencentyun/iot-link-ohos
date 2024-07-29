@@ -1,0 +1,61 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/heyu/.ohos/config/default_iot_link_ohos_3fO_LQrygN0ktxtGM0dB8ecDQJHPl2MfTGeXEGJ5tcQ=.cer",
+          "storePassword": "0000001BD9ABF1C87676111DC3C0351A045A8F963694ADCE7D047C293469E4E30356A693D0C45A1FB4B550",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B0824485C49BCBAA30641E0D91507EEC5AD5F77C389307900B6D92172564A824600A76EB451973E",
+          "profile": "/Users/heyu/.ohos/config/default_iot_link_ohos_3fO_LQrygN0ktxtGM0dB8ecDQJHPl2MfTGeXEGJ5tcQ=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/heyu/.ohos/config/default_iot_link_ohos_3fO_LQrygN0ktxtGM0dB8ecDQJHPl2MfTGeXEGJ5tcQ=.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sdkdemo",
+      "srcPath": "./sdkdemo",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

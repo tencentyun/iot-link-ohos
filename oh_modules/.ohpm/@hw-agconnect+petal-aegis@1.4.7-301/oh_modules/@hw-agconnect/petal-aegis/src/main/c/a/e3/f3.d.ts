@@ -1,0 +1,1 @@
+export declare enum HashAlg { SHA256 = 0, SHA384 = 1, SHA512 = 2, SM3 = 3 } export declare enum HmacAlg { SHA224 = 0, SHA256 = 1, SHA384 = 2, SHA512 = 3, SM3 = 4 } 
