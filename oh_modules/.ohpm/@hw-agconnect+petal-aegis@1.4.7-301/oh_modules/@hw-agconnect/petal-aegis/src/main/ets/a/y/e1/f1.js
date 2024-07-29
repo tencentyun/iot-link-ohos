@@ -1,0 +1,1 @@
+export class Cipher { constructor(j3) { this.cipherAlg = j3; } getEncryptHandler() { return this.encryptHandler; } getDecryptHandler() { return this.decryptHandler; } } 

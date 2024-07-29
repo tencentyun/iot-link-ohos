@@ -1,0 +1,1 @@
+import hilog from '@ohos.hilog'; const DOMAIN = 0xAEAE; const TAG = 'Aegis-crypto'; const FORMAT = '%{public}s'; export class Logger { static info(...args) { hilog.info(DOMAIN, TAG, FORMAT, args); } static warn(...args) { hilog.warn(DOMAIN, TAG, FORMAT, args); } static error(...args) { hilog.error(DOMAIN, TAG, FORMAT, args); } } 

@@ -1,0 +1,1 @@
+export declare class AegStrUtil { private static TAG; ohAegStringToHexString(input: string): string; ohAegHexStringToString(input: string): string; ohAegStringToUint8Array(input: string): Uint8Array; ohAegUint8ArrayToString(input: Uint8Array): string; ohAegHexStringToUint8Array(input: string): Uint8Array; ohAegUint8ArraytoHexString(input: Uint8Array): string; } 

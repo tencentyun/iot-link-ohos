@@ -1,0 +1,1 @@
+export declare class RegisterCenter<K, V> { private infoMap; register(key: K, value: V): void; load(key: K): V; } 

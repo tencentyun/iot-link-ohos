@@ -1,0 +1,11 @@
+export const setMessageListener: (callback: (what: number, arg1: number, arg2: number, obj: string) => void) => void;
+export const startService: (product_id: string, device_name: string) => string;
+export const stopService: (dev_name: string) => void;
+export const setXp2pInfo: (dev_name: string, xp2pinfo: string) => void;
+export const getUrlForHttpFlv: (dev_name: string) => string;
+export const getCommandRequestWithAsync: (dev_name: string, cmd: string, result: (result: string) => void) => void;
+export const startAvRecvService: (dev_name: string, cmd: string) => void;
+export const stopAvRecvService: (dev_name: string) => number;
+export const startTalk: (dev_name: string) => void;
+export const stopTalk: (dev_name: string) => void;
+export const encodeTalkData: (dev_name: string, buffer: ArrayBuffer) => void;

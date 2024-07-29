@@ -1,0 +1,88 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "SdkdemoAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "SdkdemoAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "demo_name",
+      "value": "IoT Video"
+    },
+    {
+      "name": "welcome",
+      "value": "欢迎使用腾讯云 IoT Video"
+    },
+    {
+      "name": "video",
+      "value": "IoT Video（消费版）"
+    },
+    {
+      "name": "video_pro",
+      "value": "IoT Video（行业版）"
+    },
+    {
+      "name": "video_wlan",
+      "value": "IoT Video（局域网）"
+    },
+    {
+      "name": "login",
+      "value": "登录"
+    },
+    {
+      "name": "iot_demo_name",
+      "value": "IoT Video Demo"
+    },
+    {
+      "name": "access_id",
+      "value": "Access ID"
+    },
+    {
+      "name": "access_token",
+      "value": "Access Token"
+    },
+    {
+      "name": "product_id",
+      "value": "Product ID"
+    },
+    {
+      "name": "hint_access_id",
+      "value": "请输入Access ID"
+    },
+    {
+      "name": "hint_access_token",
+      "value": "请输入Access Token"
+    },
+    {
+      "name": "hint_product_id",
+      "value": "请输入Product ID"
+    },
+    {
+      "name": "hint_client_token",
+      "value": "请输入Client Token"
+    },
+    {
+      "name": "my_devs",
+      "value": "我的设备"
+    },
+    {
+      "name": "online",
+      "value": "在线"
+    },
+    {
+      "name": "offline",
+      "value": "离线"
+    },
+    {
+      "name": "preview",
+      "value": "预览"
+    }
+  ]
+}

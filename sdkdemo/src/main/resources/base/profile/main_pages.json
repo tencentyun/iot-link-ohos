@@ -1,0 +1,11 @@
+{
+  "src": [
+    "pages/ModulePage",
+    "pages/VideoInputAuthorizePage",
+    "pages/VideoOptionsPage",
+    "pages/VideoWlanDetectPage",
+    "pages/LoginPage",
+    "pages/VideoMainPage",
+    "pages/VideoPreviewPage"
+  ]
+}

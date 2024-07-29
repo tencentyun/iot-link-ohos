@@ -1,0 +1,60 @@
+{
+  "routerMap": [
+    {
+      "name": "LoginPage",
+      "pageSourceFile": "src/main/ets/pages/LoginPage.ets",
+      "buildFunction": "LoginPageBuilder",
+      "data": {
+        "description": "this is LoginPage"
+      }
+    },
+    {
+      "name": "ModulePage",
+      "pageSourceFile": "src/main/ets/pages/ModulePage.ets",
+      "buildFunction": "ModulePageBuilder",
+      "data": {
+        "description": "this is ModulePage"
+      }
+    },
+    {
+      "name": "VideoOptionsPage",
+      "pageSourceFile": "src/main/ets/pages/VideoOptionsPage.ets",
+      "buildFunction": "VideoOptionsPageBuilder",
+      "data": {
+        "description": "this is VideoOptionsPage"
+      }
+    },
+    {
+      "name": "VideoInputAuthorizePage",
+      "pageSourceFile": "src/main/ets/pages/VideoInputAuthorizePage.ets",
+      "buildFunction": "VideoInputAuthorizePageBuilder",
+      "data": {
+        "description": "this is VideoInputAuthorizePage"
+      }
+    },
+    {
+      "name": "VideoWlanDetectPage",
+      "pageSourceFile": "src/main/ets/pages/VideoWlanDetectPage.ets",
+      "buildFunction": "VideoWlanDetectPageBuilder",
+      "data": {
+        "description": "this is VideoWlanDetectPage"
+      }
+    },
+    {
+      "name": "VideoMainPage",
+      "pageSourceFile": "src/main/ets/pages/VideoMainPage.ets",
+      "buildFunction": "VideoMainPageBuilder",
+      "data": {
+        "description": "this is VideoMainPagePage"
+      }
+    },
+    {
+      "name": "VideoPreviewPage",
+      "pageSourceFile": "src/main/ets/pages/VideoPreviewPage.ets",
+      "buildFunction": "VideoPreviewPageBuilder",
+      "data": {
+        "description": "this is VideoPreviewPagePage"
+      }
+    }
+  ]
+}

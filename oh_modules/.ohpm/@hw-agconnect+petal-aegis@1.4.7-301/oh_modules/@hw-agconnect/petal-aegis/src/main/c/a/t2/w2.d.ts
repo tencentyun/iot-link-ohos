@@ -1,0 +1,1 @@
+export declare enum SM4Alg { SM4_CBC_PKCS5Padding = 0, SM4_CBC_PKCS7Padding = 1, SM4_CTR_NoPadding = 2, SM4_OFB_NoPadding = 3, SM4_CFB_NoPadding = 4, SM4_CFB128_NoPadding = 5 } 

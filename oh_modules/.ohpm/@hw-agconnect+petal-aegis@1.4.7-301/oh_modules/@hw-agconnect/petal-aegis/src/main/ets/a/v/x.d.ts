@@ -1,0 +1,1 @@
+export declare class SecureRandom { static generateRandom(len: number): Uint8Array; } 

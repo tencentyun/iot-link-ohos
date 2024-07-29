@@ -1,0 +1,25 @@
+{
+	"app": {
+		"bundleName": "com.aegis.openharmony",
+		"versionCode": 1000000,
+		"versionName": "1.0.0",
+		"minAPIVersion": 11,
+		"targetAPIVersion": 11,
+		"apiReleaseType": "Beta1",
+		"compileSdkVersion": "4.1.6.3",
+		"compileSdkType": "OpenHarmony",
+		"bundleType": "app"
+	},
+	"module": {
+		"name": "crypto_ts",
+		"type": "har",
+		"deviceTypes": [
+			"default",
+			"tablet"
+		],
+		"installationFree": false,
+		"virtualMachine": "ark11.0.2.0",
+		"compileMode": "esmodule",
+		"dependencies": []
+	}
+}

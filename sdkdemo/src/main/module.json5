@@ -1,0 +1,33 @@
+{
+  "module": {
+    "name": "sdkdemo",
+    "type": "feature",
+    "description": "$string:module_desc",
+    "mainElement": "SdkdemoAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "requestPermissions": [
+      {
+        "name": 'ohos.permission.INTERNET'
+      }
+    ],
+    "abilities": [
+      {
+        "name": "SdkdemoAbility",
+        "srcEntry": "./ets/sdkdemoability/SdkdemoAbility.ets",
+        "description": "$string:SdkdemoAbility_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:SdkdemoAbility_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      }
+    ],
+    "routerMap": "$profile:router_map"
+  }
+}

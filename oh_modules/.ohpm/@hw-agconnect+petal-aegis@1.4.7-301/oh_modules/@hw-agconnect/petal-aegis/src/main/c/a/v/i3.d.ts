@@ -1,0 +1,1 @@
+export declare class CipherUtil { private static TAG; static getCiphertextUint8Array(input: string | Uint8Array, ivLen: number): Ciphertext; static getKeyLen(f50: string | Uint8Array): number; static getCipherText(e50: Uint8Array, data: Uint8Array): Uint8Array; } export declare class Ciphertext { iv: any; text: any; constructor(iv: any, text: any); } 

@@ -1,0 +1,1 @@
+import type { SignAlg } from "./p1"; import { VerifyHandler } from "./n2"; export declare abstract class HuksVerifyHandler extends VerifyHandler { protected keyAlias: string; constructor(r47: SignAlg, keyAlias: string); protected prepare(): Promise<void>; } 
