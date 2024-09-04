@@ -1,27 +1,18 @@
-import { VideoCallback } from '../callback/VideoCallback';
-import { VideoViewModel } from '../viewmodel/VideoViewModel';
-import { VideoRequestCode } from '../consts/VideoRequestCode';
 
 @Builder
 export function ModulePageBuilder(name: string, param: Object) {
   ModulePage()
 }
 
-const viewModel = new VideoViewModel()
-
 @Entry
 @Component
 struct ModulePage {
-  @State productId: string = "***REMOVED***"
-  @State secretId: string = "***REMOVED***"
-  @State secretKey: string = "***REMOVED***"
   @Provide('pathStack') pathStack: NavPathStack = new NavPathStack()
   @State core: string = 'CORE';
   @State video: string = 'VIDEO';
   @State rtc: string = 'RTC';
 
   aboutToAppear(): void {
-    viewModel.setSecretInfo(this.secretId, this.secretKey)
   }
 
   build() {
@@ -88,53 +79,6 @@ struct ModulePage {
             middle: { anchor: '__container__', align: HorizontalAlign.Center }
           })
           .onClick(() => {
-            // 创建回调对象
-            // let callback: VideoCallback<VideoDescribeProduct> = {
-            //   fail: (reqCode: number, msg?: string): void => {
-            //     console.log(`getProductInfo error reqCode:${reqCode}  msg:${msg}`)
-            //   },
-            //   success: (reqCode: number, response?: VideoDescribeProduct): void => {
-            //     if (response) {
-            //       switch (reqCode) {
-            //         case VideoRequestCode.VIDEO_DESCRIBE_DEVICES: {
-            //
-            //         }
-            //         case VideoRequestCode.VIDEO_DESCRIBE_PRODUCT: {
-            //           if (response.Response?.Data) {
-            //             this.videoProductInfo = response.Response?.Data
-            //             this.requestDevs()
-            //           }
-            //         }
-            //       }
-            //     } else {
-            //       console.log(`response is null`)
-            //     }
-            //   }
-            // };
-            // viewModel.getProductInfo(this.productId, callback)
-            let callback: VideoCallback<string> = {
-              fail: (reqCode: number, msg?: string): void => {
-                console.log(`getProductInfo error reqCode:${reqCode}  msg:${msg}`)
-              },
-              success: (reqCode: number, response?: string): void => {
-                if (response) {
-                  switch (reqCode) {
-                    case VideoRequestCode.VIDEO_DESCRIBE_DEVICES: {
-
-                    }
-                    case VideoRequestCode.VIDEO_DESCRIBE_PRODUCT: {
-                      // if (response.Response?.Data) {
-                      //   this.videoProductInfo = response.Response?.Data
-                      //   this.requestDevs()
-                      // }
-                    }
-                  }
-                } else {
-                  console.log(`response is null`)
-                }
-              }
-            };
-            viewModel.getXp2pInfo(this.productId, "sp01_32820237_4", callback)
           })
       }
       .height('100%')
