@@ -6,10 +6,10 @@ export function VideoOptionsPageBuilder(name: string, param: Object) {
 @Entry
 @Component
 struct VideoOptionsPage {
-  pathStack: NavPathStack = new NavPathStack();
+  @Provide('pathStack') pathStack: NavPathStack = new NavPathStack()
 
   build() {
-    NavDestination() {
+    Navigation(this.pathStack) {
       RelativeContainer() {
         Image($r('app.media.iot_video_logo'))
           .id('iv_logo')
@@ -62,6 +62,7 @@ struct VideoOptionsPage {
             middle: { anchor: '__container__', align: HorizontalAlign.Center }
           })
           .onClick(() => {
+            // this.pathStack.pushPathByName('VideoInputAuthorizePage', "IoT Video Demo")
             this.pathStack.pushDestinationByName('VideoInputAuthorizePage', "IoT Video Demo")
           })
 
@@ -106,9 +107,6 @@ struct VideoOptionsPage {
       .height('100%')
       .width('100%')
     }
-    .onReady((context) => {
-      this.pathStack = context.pathStack
-    })
     .hideTitleBar(true)
   }
 }
