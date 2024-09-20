@@ -20,7 +20,8 @@ import { VideoCallback } from '../callback/VideoCallback'
 import CommonUtils from '../util/CommonUtils'
 import Command from '../viewmodel/Command'
 
-let mIjkMediaPlayer: IjkMediaPlayer
+let mIjkMediaPlayer: IjkMediaPlayer = IjkMediaPlayer.getInstance();
+
 let mIoTVideoBridge = IoTVideoBridge.getInstance();
 const videoViewModel = new VideoViewModel()
 
@@ -432,7 +433,6 @@ struct VideoPreviewPage {
 
   private play(url: string) {
     let that = this;
-    mIjkMediaPlayer = IjkMediaPlayer.getInstance();
     // 设置XComponent回调的context
     mIjkMediaPlayer.setContext(this.mContext, "xcomponentId");
     // 设置debug模式
