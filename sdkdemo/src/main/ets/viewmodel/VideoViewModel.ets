@@ -19,7 +19,7 @@ export class VideoViewModel {
   }
 
   async getProductInfo<T>(productId: string, callback?: VideoCallback<T>) {
-    this.videoCommonHeaderParams("DescribeProduct", "2020-12-15", (headerParams: Map<string, string>) => {
+    this.videoCommonHeaderParams("DescribeProduct", "2021-11-25", (headerParams: Map<string, string>) => {
       const param = new Map<string, number | string>()
       param.set("ProductId", productId)
       param["ProductId"] = productId
@@ -123,11 +123,16 @@ export class VideoViewModel {
     const year: number = date.getFullYear(); // 获取年份
     const month: number = date.getMonth() + 1; // 获取月份（注意月份是从 0 开始计数的，所以需要加 1）
     const day: number = date.getDate(); // 获取日期
-    let dateStr: string
+    let dateStr: string = `${year}`
     if (month > 9) {
-      dateStr = `${year}-${month}-${day}`;
+      dateStr = dateStr + `-${month}`;
     } else {
-      dateStr = `${year}-0${month}-${day}`;
+      dateStr = dateStr + `-0${month}`;
+    }
+    if (day > 9) {
+      dateStr = dateStr + `-${day}`;
+    } else {
+      dateStr = dateStr + `-0${day}`;
     }
 
 
