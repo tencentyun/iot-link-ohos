@@ -1,1 +1,0 @@
-import cryptoFramework from '@ohos.security.cryptoFramework'; export declare class KeyAgreement { private static create; static createECC256(priKey: cryptoFramework.PriKey, z44: cryptoFramework.PubKey): Promise<Uint8Array>; static createECC256FromBytes(x44: Uint8Array, y44: Uint8Array): Promise<Uint8Array>; } 

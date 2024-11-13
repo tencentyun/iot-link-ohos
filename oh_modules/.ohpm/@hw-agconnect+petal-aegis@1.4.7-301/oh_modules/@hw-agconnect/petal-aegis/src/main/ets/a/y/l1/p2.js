@@ -1,1 +1,0 @@
-import { KeyManager } from "../z/b1"; import { SignerInfoCenter } from "./l2"; import { SignHandler } from "./m2"; export class HuksSignHandler extends SignHandler { constructor(w7, keyAlias) { super(w7); this.keyAlias = keyAlias; } async prepare() { let v7 = SignerInfoCenter.load(this.signAlg); await KeyManager.checkAndGenerateHuksKey(v7.keyType, this.keyAlias); } } 

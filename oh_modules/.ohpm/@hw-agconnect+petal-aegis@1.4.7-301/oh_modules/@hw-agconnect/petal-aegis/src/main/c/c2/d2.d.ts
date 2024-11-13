@@ -1,1 +1,0 @@
-export declare class AegLogger { static info(...args: any[]): void; static warn(...args: any[]): void; static error(...args: any[]): void; protected static appendArgs(args: any[]): string; } 
