@@ -1,0 +1,8 @@
+/node_modules
+/.preview
+/build
+/.cxx
+/.test
+/.hvigor
+/.idea
+/oh_modules
