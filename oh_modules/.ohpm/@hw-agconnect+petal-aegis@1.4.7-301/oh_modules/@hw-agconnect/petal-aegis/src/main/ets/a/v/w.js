@@ -1,1 +1,0 @@
-export class Uint8ArrayUtil { static combine(u8, ...v8) { let data = [...u8]; for (let value of v8) { if (value) { data.push(...value); } } return new Uint8Array(data); } } 

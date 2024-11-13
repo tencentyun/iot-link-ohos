@@ -1,1 +1,0 @@
-export class RegisterCenter { constructor() { this.infoMap = new Map(); } register(key, value) { this.infoMap.set(key, value); } load(key) { return this.infoMap.get(key); } } 

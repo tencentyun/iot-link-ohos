@@ -1,1 +1,0 @@
-export declare class Uint8ArrayUtil { static combine(f44: Uint8Array, ...g44: Uint8Array[]): Uint8Array; } 

@@ -1,1 +1,0 @@
-import { DataProcessor } from "../h2"; import type { SignAlg } from "./p1"; export declare abstract class SignHandler extends DataProcessor { protected signAlg: SignAlg; constructor(j47: SignAlg); protected prepare(): Promise<void>; protected abstract doSign(): Promise<Uint8Array>; to(): Promise<Uint8Array>; } 

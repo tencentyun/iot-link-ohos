@@ -1,1 +1,0 @@
-import type { SignAlg } from "./p1"; import { SignHandler } from "./m2"; export declare abstract class HuksSignHandler extends SignHandler { protected keyAlias: string; constructor(q47: SignAlg, keyAlias: string); protected prepare(): Promise<void>; } 

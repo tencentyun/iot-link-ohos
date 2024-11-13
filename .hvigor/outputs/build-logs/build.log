@@ -1,35 +1,6 @@
-[2024-07-29T10:39:02.059] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
-[2024-07-29T10:39:02.201] [DEBUG] debug-file - Hvigor init with startParameters:{
-  hvigorfileTypeCheck: false,
-  parallelExecution: true,
-  incrementalExecution: true,
-  printStackTrace: false,
-  daemon: false,
-  analyze: 0,
-  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
-}
-[2024-07-29T10:39:02.207] [DEBUG] debug-file - hvigorfile, resolving /Users/heyu/DevEcoStudioProjects/iot-link-ohos/hvigorfile.ts
-[2024-07-29T10:39:02.563] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: appTasks], plugins: [] } }
-[2024-07-29T10:39:02.644] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
-[2024-07-29T10:39:02.646] [DEBUG] debug-file - Product 'default' using build option: {
-  "debuggable": true
-} in this build.
-[2024-07-29T10:39:02.653] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native
-[2024-07-29T10:39:02.654] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
-[2024-07-29T10:39:02.657] [DEBUG] debug-file - Sdk init in 5 ms 
-[2024-07-29T10:39:02.665] [DEBUG] debug-file - Project task initialization takes 8 ms 
-[2024-07-29T10:39:02.667] [DEBUG] debug-file - hvigorfile, resolving /Users/heyu/DevEcoStudioProjects/iot-link-ohos/entry/hvigorfile.ts
-[2024-07-29T10:39:02.673] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
-[2024-07-29T10:39:02.676] [DEBUG] debug-file - Module entry task initialization takes 2 ms 
-[2024-07-29T10:39:02.678] [DEBUG] debug-file - hvigorfile, resolving /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/hvigorfile.ts
-[2024-07-29T10:39:02.684] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=sdkdemo, buildMode=debug
-[2024-07-29T10:39:02.684] [DEBUG] debug-file - Module sdkdemo task initialization takes 1 ms 
-[2024-07-29T10:39:02.685] [DEBUG] debug-file - project has submodules:entry,sdkdemo
-[2024-07-29T10:39:02.697] [DEBUG] debug-file - Executing task :entry:clean
-[2024-07-29T10:39:02.698] [DEBUG] debug-file - entry : clean cost memory 0.22521209716796875
-[2024-07-29T10:39:02.699] [DEBUG] debug-file - Executing task :sdkdemo:clean
-[2024-07-29T10:39:02.732] [DEBUG] debug-file - sdkdemo : clean cost memory 2.2818756103515625
-[2024-07-29T10:39:02.059] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+[2024-11-13T10:45:05.311] [DEBUG] debug-file - env: daemon=true
+[2024-11-13T10:45:05.300] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2024-11-13T10:45:05.300] [DEBUG] debug-file - env: hvigor-config.json5 content = {
   modelVersion: '5.0.0',
   dependencies: {},
   execution: {},
@@ -37,158 +8,7 @@
   debugging: {},
   nodeOptions: {}
 }
-[2024-07-29T10:39:02.202] [DEBUG] debug-file - Since current hvigor version 5.2.2 differs from last hvigor version 
-      undefined, delete file-cache.json and task-cache.json.
-[2024-07-29T10:39:02.563] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: appTasks]
-[2024-07-29T10:39:02.644] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
-[2024-07-29T10:39:02.665] [DEBUG] debug-file - hvigorfile, binding custom plugins []
-[2024-07-29T10:39:02.669] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: hapTasks], plugins: [] } }
-[2024-07-29T10:39:02.673] [DEBUG] debug-file - Target 'default' config: {}
-[2024-07-29T10:39:02.744] [DEBUG] debug-file - Current worker pool is stopped or closed.
-[2024-07-29T10:39:02.676] [DEBUG] debug-file - hvigorfile, binding custom plugins []
-[2024-07-29T10:39:02.681] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: hapTasks], plugins: [] } }
-[2024-07-29T10:39:02.684] [DEBUG] debug-file - Target 'default' config: {}
-[2024-07-29T10:39:02.685] [DEBUG] debug-file - hvigorfile, binding custom plugins []
-[2024-07-29T10:39:02.685] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
-[2024-07-29T10:39:02.697] [DEBUG] debug-file - clean: Worker pool is inactive.
-[2024-07-29T10:39:02.698] [DEBUG] debug-file - runTaskFromQueue task cost before running: 503 ms 
-[2024-07-29T10:39:02.699] [DEBUG] debug-file - clean: Worker pool is inactive.
-[2024-07-29T10:39:02.732] [DEBUG] debug-file - runTaskFromQueue task cost before running: 536 ms 
-[2024-07-29T10:39:02.060] [DEBUG] debug-file - env: daemon=false
-[2024-07-29T10:39:02.202] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
-[2024-07-29T10:39:02.644] [DEBUG] debug-file - Product 'default' build option: {}
-[2024-07-29T10:39:02.665] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/heyu/DevEcoStudioProjects/iot-link-ohos/hvigorfile.ts
-[2024-07-29T10:39:02.669] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: hapTasks]
-[2024-07-29T10:39:02.673] [DEBUG] debug-file - Target 'ohosTest' config: {}
-[2024-07-29T10:39:02.748] [DEBUG] debug-file - Current worker pool is terminated.
-[2024-07-29T10:39:02.676] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/heyu/DevEcoStudioProjects/iot-link-ohos/entry/hvigorfile.ts
-[2024-07-29T10:39:02.681] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: hapTasks]
-[2024-07-29T10:39:02.684] [DEBUG] debug-file - Target 'ohosTest' config: {}
-[2024-07-29T10:39:02.685] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/hvigorfile.ts
-[2024-07-29T10:39:02.686] [DEBUG] debug-file - load to the disk finished
-[2024-07-29T10:39:02.698] [INFO] debug-file - Finished :entry:clean... after 1 ms 
-[2024-07-29T10:39:02.732] [INFO] debug-file - Finished :sdkdemo:clean... after 33 ms 
-[2024-07-29T10:39:02.060] [DEBUG] debug-file - no-daemon, use the parent process.execArgv --max-old-space-size=8192,--expose-gc
-[2024-07-29T10:39:02.644] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
-[2024-07-29T10:39:02.665] [DEBUG] debug-file - hvigorfile, resolve finished /Users/heyu/DevEcoStudioProjects/iot-link-ohos/hvigorfile.ts
-[2024-07-29T10:39:02.673] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
-  "debuggable": true,
-  "copyFrom": "default",
-  "name": "debug"
-}
-[2024-07-29T10:39:02.676] [DEBUG] debug-file - hvigorfile, resolve finished /Users/heyu/DevEcoStudioProjects/iot-link-ohos/entry/hvigorfile.ts
-[2024-07-29T10:39:02.684] [DEBUG] debug-file - Module 'sdkdemo' target 'default' build option: {
-  "debuggable": true,
-  "copyFrom": "default",
-  "name": "debug"
-}
-[2024-07-29T10:39:02.685] [DEBUG] debug-file - hvigorfile, resolve finished /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/hvigorfile.ts
-[2024-07-29T10:39:02.691] [WARN] debug-file - The current module 'iot-link-ohos' has dependency which is not installed at its oh-package.json5.
-[2024-07-29T10:39:02.732] [DEBUG] debug-file - Executing task ::clean
-[2024-07-29T10:39:02.674] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
-  "debuggable": true,
-  "name": "default"
-}
-[2024-07-29T10:39:02.684] [DEBUG] debug-file - Module 'sdkdemo' target 'ohosTest' build option: {
-  "debuggable": true,
-  "name": "default"
-}
-[2024-07-29T10:39:02.691] [DEBUG] debug-file - Module iot-link-ohos Collected Dependency: /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencent+mmkv@1.3.9/oh_modules/@tencent/mmkv,/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@hw-agconnect+petal-aegis@1.4.7-301/oh_modules/@hw-agconnect/petal-aegis,/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencentyun+libiotvideo@1.0.1/oh_modules/@tencentyun/libiotvideo,/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@ohos+ijkplayer@2.0.4/oh_modules/@ohos/ijkplayer,/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencentyun+libiotvideo@1.0.1/oh_modules/@tencentyun/libiotvideo/src/main/cpp/types/liblibiotvideo
-[2024-07-29T10:39:02.732] [DEBUG] debug-file - clean: Worker pool is inactive.
-[2024-07-29T10:39:02.674] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
-[2024-07-29T10:39:02.684] [DEBUG] debug-file - End initialize module-target build option map, moduleName=sdkdemo
-[2024-07-29T10:39:02.691] [DEBUG] debug-file - Module iot-link-ohos's total dependency: 5
-[2024-07-29T10:39:02.732] [DEBUG] debug-file - iot-link-ohos : clean cost memory 0.02645111083984375
-[2024-07-29T10:39:02.674] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
-  "debuggable": true,
-  "copyFrom": "default",
-  "name": "debug"
-} in this build.
-[2024-07-29T10:39:02.684] [DEBUG] debug-file - Module 'sdkdemo' target 'default' using build option: {
-  "debuggable": true,
-  "copyFrom": "default",
-  "name": "debug"
-} in this build.
-[2024-07-29T10:39:02.692] [DEBUG] debug-file - Module entry Collected Dependency: /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencent+mmkv@1.3.9/oh_modules/@tencent/mmkv,/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@hw-agconnect+petal-aegis@1.4.7-301/oh_modules/@hw-agconnect/petal-aegis,/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencentyun+libiotvideo@1.0.1/oh_modules/@tencentyun/libiotvideo,/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@ohos+ijkplayer@2.0.4/oh_modules/@ohos/ijkplayer,/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencentyun+libiotvideo@1.0.1/oh_modules/@tencentyun/libiotvideo/src/main/cpp/types/liblibiotvideo
-[2024-07-29T10:39:02.732] [DEBUG] debug-file - runTaskFromQueue task cost before running: 537 ms 
-[2024-07-29T10:39:02.693] [DEBUG] debug-file - Module entry's total dependency: 5
-[2024-07-29T10:39:02.732] [INFO] debug-file - Finished ::clean... after 1 ms 
-[2024-07-29T10:39:02.695] [DEBUG] debug-file - Module sdkdemo Collected Dependency: /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencent+mmkv@1.3.9/oh_modules/@tencent/mmkv,/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@hw-agconnect+petal-aegis@1.4.7-301/oh_modules/@hw-agconnect/petal-aegis,/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencentyun+libiotvideo@1.0.1/oh_modules/@tencentyun/libiotvideo,/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@ohos+ijkplayer@2.0.4/oh_modules/@ohos/ijkplayer,/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencentyun+libiotvideo@1.0.1/oh_modules/@tencentyun/libiotvideo/src/main/cpp/types/liblibiotvideo
-[2024-07-29T10:39:02.732] [DEBUG] debug-file - Executing task :entry:init
-[2024-07-29T10:39:02.695] [DEBUG] debug-file - Module sdkdemo's total dependency: 5
-[2024-07-29T10:39:02.732] [DEBUG] debug-file - entry : init cost memory 0.00986480712890625
-[2024-07-29T10:39:02.695] [DEBUG] debug-file - Configuration phase cost:491 ms 
-[2024-07-29T10:39:02.732] [DEBUG] debug-file - runTaskFromQueue task cost before running: 537 ms 
-[2024-07-29T10:39:02.696] [DEBUG] debug-file - Configuration task cost before running: 501 ms 
-[2024-07-29T10:39:02.733] [INFO] debug-file - Finished :entry:init... after 1 ms 
-[2024-07-29T10:39:02.733] [DEBUG] debug-file - Executing task :sdkdemo:init
-[2024-07-29T10:39:02.733] [DEBUG] debug-file - sdkdemo : init cost memory 0.00772857666015625
-[2024-07-29T10:39:02.733] [DEBUG] debug-file - runTaskFromQueue task cost before running: 537 ms 
-[2024-07-29T10:39:02.733] [INFO] debug-file - Finished :sdkdemo:init... after 1 ms 
-[2024-07-29T10:39:02.733] [DEBUG] debug-file - Executing task ::init
-[2024-07-29T10:39:02.733] [DEBUG] debug-file - iot-link-ohos : init cost memory 0.00865936279296875
-[2024-07-29T10:39:02.733] [DEBUG] debug-file - runTaskFromQueue task cost before running: 537 ms 
-[2024-07-29T10:39:02.733] [INFO] debug-file - Finished ::init... after 1 ms 
-[2024-07-29T10:39:02.735] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
-  "debuggable": true,
-  "copyFrom": "default",
-  "name": "debug"
-} in this build.
-[2024-07-29T10:39:02.736] [DEBUG] debug-file - Module 'entry' target 'ohosTest' using build option: {
-  "debuggable": true,
-  "name": "default"
-} in this build.
-[2024-07-29T10:39:02.737] [DEBUG] debug-file - Module 'sdkdemo' target 'default' using build option: {
-  "debuggable": true,
-  "copyFrom": "default",
-  "name": "debug"
-} in this build.
-[2024-07-29T10:39:02.738] [DEBUG] debug-file - Module 'sdkdemo' target 'ohosTest' using build option: {
-  "debuggable": true,
-  "name": "default"
-} in this build.
-[2024-07-29T10:39:02.740] [DEBUG] debug-file - hvigor start cli arguments:{
-  prop: [ 'product=default' ],
-  sync: true,
-  parallel: true,
-  incremental: true,
-  daemon: false,
-  _: [ '--analyze=normal' ]
-}
-[2024-07-29T10:39:02.742] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
-[2024-07-29T10:39:02.742] [DEBUG] debug-file - Worker pool is initialized with config:  {
-  minPoolNum: 2,
-  maxPoolNum: undefined,
-  maxCoreSize: undefined,
-  cacheCapacity: undefined,
-  cacheTtl: undefined
-}
-[2024-07-29T10:39:13.368] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
-[2024-07-29T10:39:13.380] [DEBUG] debug-file - env: daemon=true
-[2024-07-29T10:39:13.528] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED ::1:45050
-[2024-07-29T10:39:13.529] [DEBUG] debug-file - java daemon started at port 45050 pid 91078
-[2024-07-29T10:39:13.533] [DEBUG] debug-file - hvigor start cli arguments:{
-  prop: [
-    'module=sdkdemo@default',
-    'product=default',
-    'requiredDeviceType=phone'
-  ],
-  mode: 'module',
-  parallel: true,
-  incremental: true,
-  daemon: true,
-  _: [ 'assembleHap', '--analyze=normal' ]
-}
-[2024-07-29T10:39:13.369] [DEBUG] debug-file - env: hvigor-config.json5 content = {
-  modelVersion: '5.0.0',
-  dependencies: {},
-  execution: {},
-  logging: {},
-  debugging: {},
-  nodeOptions: {}
-}
-[2024-07-29T10:39:13.543] [DEBUG] debug-file - session manager: set active socket. socketId=41rkjLbROGaXQd3iAAAB
-[2024-07-29T10:39:13.736] [DEBUG] debug-file - Hvigor init with startParameters:{
+[2024-11-13T10:45:18.700] [DEBUG] debug-file - Hvigor init with startParameters:{
   hvigorfileTypeCheck: false,
   parallelExecution: true,
   incrementalExecution: true,
@@ -197,897 +17,111 @@
   analyze: 0,
   logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
 }
-[2024-07-29T10:39:13.736] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
-[2024-07-29T10:39:13.739] [DEBUG] debug-file - hvigorfile, resolving /Users/heyu/DevEcoStudioProjects/iot-link-ohos/hvigorfile.ts
-[2024-07-29T10:39:14.035] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
-[2024-07-29T10:39:14.035] [DEBUG] debug-file - hvigorfile, binding system plugins null
-[2024-07-29T10:39:14.115] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
-[2024-07-29T10:39:14.115] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
-[2024-07-29T10:39:14.115] [DEBUG] debug-file - Product 'default' build option: {}
-[2024-07-29T10:39:14.115] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
-[2024-07-29T10:39:14.116] [DEBUG] debug-file - Product 'default' using build option: {
+[2024-11-13T10:45:18.701] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
+[2024-11-13T10:45:18.705] [DEBUG] debug-file - hvigorfile, resolving /Users/heyu/DevEcoStudioProjects/iot-link-ohos/hvigorfile.ts
+[2024-11-13T10:45:18.708] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2024-11-13T10:45:18.708] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2024-11-13T10:45:18.711] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2024-11-13T10:45:18.711] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2024-11-13T10:45:18.711] [DEBUG] debug-file - Product 'default' build option: {}
+[2024-11-13T10:45:18.711] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2024-11-13T10:45:18.711] [DEBUG] debug-file - Product 'default' using build option: {
   "debuggable": true
 } in this build.
-[2024-07-29T10:39:14.124] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native
-[2024-07-29T10:39:14.125] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
-[2024-07-29T10:39:14.127] [DEBUG] debug-file - Sdk init in 4 ms 
-[2024-07-29T10:39:14.133] [DEBUG] debug-file - Project task initialization takes 6 ms 
-[2024-07-29T10:39:14.133] [DEBUG] debug-file - hvigorfile, binding custom plugins []
-[2024-07-29T10:39:14.133] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/heyu/DevEcoStudioProjects/iot-link-ohos/hvigorfile.ts
-[2024-07-29T10:39:14.133] [DEBUG] debug-file - hvigorfile, resolve finished /Users/heyu/DevEcoStudioProjects/iot-link-ohos/hvigorfile.ts
-[2024-07-29T10:39:14.135] [DEBUG] debug-file - hvigorfile, resolving /Users/heyu/DevEcoStudioProjects/iot-link-ohos/entry/hvigorfile.ts
-[2024-07-29T10:39:14.137] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
-[2024-07-29T10:39:14.137] [DEBUG] debug-file - hvigorfile, binding system plugins null
-[2024-07-29T10:39:14.141] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
-[2024-07-29T10:39:14.141] [DEBUG] debug-file - Target 'default' config: {}
-[2024-07-29T10:39:14.141] [DEBUG] debug-file - Target 'ohosTest' config: {}
-[2024-07-29T10:39:14.141] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+[2024-11-13T10:45:18.717] [DEBUG] debug-file - Sdk init in 3 ms 
+[2024-11-13T10:45:18.723] [DEBUG] debug-file - Project task initialization takes 6 ms 
+[2024-11-13T10:45:18.723] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2024-11-13T10:45:18.723] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/heyu/DevEcoStudioProjects/iot-link-ohos/hvigorfile.ts
+[2024-11-13T10:45:18.723] [DEBUG] debug-file - hvigorfile, resolve finished /Users/heyu/DevEcoStudioProjects/iot-link-ohos/hvigorfile.ts
+[2024-11-13T10:45:18.725] [DEBUG] debug-file - hvigorfile, resolving /Users/heyu/DevEcoStudioProjects/iot-link-ohos/entry/hvigorfile.ts
+[2024-11-13T10:45:18.727] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2024-11-13T10:45:18.728] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2024-11-13T10:45:18.730] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2024-11-13T10:45:18.730] [DEBUG] debug-file - Target 'default' config: {}
+[2024-11-13T10:45:18.730] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2024-11-13T10:45:18.730] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
   "debuggable": true,
   "copyFrom": "default",
   "name": "debug"
 }
-[2024-07-29T10:39:14.141] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+[2024-11-13T10:45:18.730] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
   "debuggable": true,
   "name": "default"
 }
-[2024-07-29T10:39:14.141] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
-[2024-07-29T10:39:14.141] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+[2024-11-13T10:45:18.730] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2024-11-13T10:45:18.730] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
   "debuggable": true,
   "copyFrom": "default",
   "name": "debug"
 } in this build.
-[2024-07-29T10:39:14.144] [DEBUG] debug-file - Module entry task initialization takes 2 ms 
-[2024-07-29T10:39:14.144] [DEBUG] debug-file - hvigorfile, binding custom plugins []
-[2024-07-29T10:39:14.144] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/heyu/DevEcoStudioProjects/iot-link-ohos/entry/hvigorfile.ts
-[2024-07-29T10:39:14.144] [DEBUG] debug-file - hvigorfile, resolve finished /Users/heyu/DevEcoStudioProjects/iot-link-ohos/entry/hvigorfile.ts
-[2024-07-29T10:39:14.145] [DEBUG] debug-file - hvigorfile, resolving /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/hvigorfile.ts
-[2024-07-29T10:39:14.148] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
-[2024-07-29T10:39:14.148] [DEBUG] debug-file - hvigorfile, binding system plugins null
-[2024-07-29T10:39:14.149] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=sdkdemo, buildMode=debug
-[2024-07-29T10:39:14.149] [DEBUG] debug-file - Target 'default' config: {}
-[2024-07-29T10:39:14.149] [DEBUG] debug-file - Target 'ohosTest' config: {}
-[2024-07-29T10:39:14.149] [DEBUG] debug-file - Module 'sdkdemo' target 'default' build option: {
+[2024-11-13T10:45:18.731] [DEBUG] debug-file - Module entry task initialization takes 1 ms 
+[2024-11-13T10:45:18.731] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2024-11-13T10:45:18.731] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/heyu/DevEcoStudioProjects/iot-link-ohos/entry/hvigorfile.ts
+[2024-11-13T10:45:18.731] [DEBUG] debug-file - hvigorfile, resolve finished /Users/heyu/DevEcoStudioProjects/iot-link-ohos/entry/hvigorfile.ts
+[2024-11-13T10:45:18.732] [DEBUG] debug-file - hvigorfile, resolving /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/hvigorfile.ts
+[2024-11-13T10:45:18.735] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2024-11-13T10:45:18.735] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2024-11-13T10:45:18.736] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=sdkdemo, buildMode=debug
+[2024-11-13T10:45:18.736] [DEBUG] debug-file - Target 'default' config: {}
+[2024-11-13T10:45:18.736] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2024-11-13T10:45:18.736] [DEBUG] debug-file - Module 'sdkdemo' target 'default' build option: {
   "debuggable": true,
   "copyFrom": "default",
   "name": "debug"
 }
-[2024-07-29T10:39:14.149] [DEBUG] debug-file - Module 'sdkdemo' target 'ohosTest' build option: {
+[2024-11-13T10:45:18.736] [DEBUG] debug-file - Module 'sdkdemo' target 'ohosTest' build option: {
   "debuggable": true,
   "name": "default"
 }
-[2024-07-29T10:39:14.149] [DEBUG] debug-file - End initialize module-target build option map, moduleName=sdkdemo
-[2024-07-29T10:39:14.149] [DEBUG] debug-file - Module 'sdkdemo' target 'default' using build option: {
+[2024-11-13T10:45:18.736] [DEBUG] debug-file - End initialize module-target build option map, moduleName=sdkdemo
+[2024-11-13T10:45:18.736] [DEBUG] debug-file - Module 'sdkdemo' target 'default' using build option: {
   "debuggable": true,
   "copyFrom": "default",
   "name": "debug"
 } in this build.
-[2024-07-29T10:39:14.150] [DEBUG] debug-file - Module sdkdemo task initialization takes 1 ms 
-[2024-07-29T10:39:14.150] [DEBUG] debug-file - hvigorfile, binding custom plugins []
-[2024-07-29T10:39:14.150] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/hvigorfile.ts
-[2024-07-29T10:39:14.150] [DEBUG] debug-file - hvigorfile, resolve finished /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/hvigorfile.ts
-[2024-07-29T10:39:14.182] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 32 ms 
-[2024-07-29T10:39:14.182] [DEBUG] debug-file - project has submodules:entry,sdkdemo
-[2024-07-29T10:39:14.183] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
-[2024-07-29T10:39:14.185] [DEBUG] debug-file - load to the disk finished
-[2024-07-29T10:39:14.187] [WARN] debug-file - The current module 'iot-link-ohos' has dependency which is not installed at its oh-package.json5.
-[2024-07-29T10:39:14.188] [DEBUG] debug-file - Module iot-link-ohos Collected Dependency: /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencent+mmkv@1.3.9/oh_modules/@tencent/mmkv,/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@hw-agconnect+petal-aegis@1.4.7-301/oh_modules/@hw-agconnect/petal-aegis,/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencentyun+libiotvideo@1.0.1/oh_modules/@tencentyun/libiotvideo,/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@ohos+ijkplayer@2.0.4/oh_modules/@ohos/ijkplayer,/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencentyun+libiotvideo@1.0.1/oh_modules/@tencentyun/libiotvideo/src/main/cpp/types/liblibiotvideo
-[2024-07-29T10:39:14.188] [DEBUG] debug-file - Module iot-link-ohos's total dependency: 5
-[2024-07-29T10:39:14.191] [DEBUG] debug-file - Module entry Collected Dependency: /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencent+mmkv@1.3.9/oh_modules/@tencent/mmkv,/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@hw-agconnect+petal-aegis@1.4.7-301/oh_modules/@hw-agconnect/petal-aegis,/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencentyun+libiotvideo@1.0.1/oh_modules/@tencentyun/libiotvideo,/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@ohos+ijkplayer@2.0.4/oh_modules/@ohos/ijkplayer,/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencentyun+libiotvideo@1.0.1/oh_modules/@tencentyun/libiotvideo/src/main/cpp/types/liblibiotvideo
-[2024-07-29T10:39:14.191] [DEBUG] debug-file - Module entry's total dependency: 5
-[2024-07-29T10:39:14.193] [DEBUG] debug-file - Module sdkdemo Collected Dependency: /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencent+mmkv@1.3.9/oh_modules/@tencent/mmkv,/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@hw-agconnect+petal-aegis@1.4.7-301/oh_modules/@hw-agconnect/petal-aegis,/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencentyun+libiotvideo@1.0.1/oh_modules/@tencentyun/libiotvideo,/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@ohos+ijkplayer@2.0.4/oh_modules/@ohos/ijkplayer,/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencentyun+libiotvideo@1.0.1/oh_modules/@tencentyun/libiotvideo/src/main/cpp/types/liblibiotvideo
-[2024-07-29T10:39:14.193] [DEBUG] debug-file - Module sdkdemo's total dependency: 5
-[2024-07-29T10:39:14.194] [DEBUG] debug-file - Configuration phase cost:457 ms 
-[2024-07-29T10:39:14.195] [DEBUG] debug-file - Configuration task cost before running: 464 ms 
-[2024-07-29T10:39:14.196] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-29T10:39:14.196] [DEBUG] debug-file - jsonObjWithoutParam {"name":"sdkdemo","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
-[2024-07-29T10:39:14.197] [DEBUG] debug-file - Executing task :sdkdemo:default@PreBuild
-[2024-07-29T10:39:14.198] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
-[2024-07-29T10:39:14.198] [DEBUG] debug-file - Worker pool is initialized with config:  {
-  minPoolNum: 2,
-  maxPoolNum: undefined,
-  maxCoreSize: undefined,
-  cacheCapacity: undefined,
-  cacheTtl: undefined
-}
-[2024-07-29T10:39:14.254] [DEBUG] debug-file - current product is not Atomic service.
-[2024-07-29T10:39:14.254] [DEBUG] debug-file - Use tool [darwin: JAVA_HOME, CLASSPATH]
- [
-  {
-    JAVA_HOME: '/Applications/DevEco-Studio.app/Contents/jbr/Contents/Home'
-  },
-  { CLASSPATH: undefined }
-]
-[2024-07-29T10:39:14.254] [DEBUG] debug-file - Use tool [darwin: NODE_HOME]
- [
-  {
-    NODE_HOME: '/Applications/DevEco-Studio.app/Contents/tools/node/bin'
-  }
-]
-[2024-07-29T10:39:14.254] [DEBUG] debug-file - sdkdemo : default@PreBuild cost memory 7.968658447265625
-[2024-07-29T10:39:14.254] [DEBUG] debug-file - runTaskFromQueue task cost before running: 523 ms 
-[2024-07-29T10:39:14.255] [INFO] debug-file - Finished :sdkdemo:default@PreBuild... after 58 ms 
-[2024-07-29T10:39:14.255] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-29T10:39:14.255] [DEBUG] debug-file - jsonObjWithoutParam {"name":"sdkdemo","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
-[2024-07-29T10:39:14.256] [DEBUG] debug-file - Executing task :sdkdemo:default@GenerateMetadata
-[2024-07-29T10:39:14.257] [DEBUG] debug-file - sdkdemo : default@GenerateMetadata cost memory 0.11639404296875
-[2024-07-29T10:39:14.257] [DEBUG] debug-file - runTaskFromQueue task cost before running: 526 ms 
-[2024-07-29T10:39:14.257] [INFO] debug-file - Finished :sdkdemo:default@GenerateMetadata... after 2 ms 
-[2024-07-29T10:39:14.258] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-29T10:39:14.258] [DEBUG] debug-file - jsonObjWithoutParam {"name":"sdkdemo","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
-[2024-07-29T10:39:14.258] [DEBUG] debug-file - Resolve native package @tencent/mmkv.
-[2024-07-29T10:39:14.258] [DEBUG] debug-file - Resolve native package @tencentyun/libiotvideo.
-[2024-07-29T10:39:14.258] [DEBUG] debug-file - Resolve native package @ohos/ijkplayer.
-[2024-07-29T10:39:14.258] [DEBUG] debug-file - Executing task :sdkdemo:default@ConfigureCmake
-[2024-07-29T10:39:14.258] [DEBUG] debug-file - sdkdemo : default@ConfigureCmake cost memory 0.0141448974609375
-[2024-07-29T10:39:14.258] [DEBUG] debug-file - runTaskFromQueue task cost before running: 527 ms 
-[2024-07-29T10:39:14.258] [INFO] debug-file - Finished :sdkdemo:default@ConfigureCmake... after 1 ms 
-[2024-07-29T10:39:14.259] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-29T10:39:14.259] [DEBUG] debug-file - jsonObjWithoutParam {"name":"sdkdemo","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
-[2024-07-29T10:39:14.260] [DEBUG] debug-file - Executing task :sdkdemo:default@MergeProfile
-[2024-07-29T10:39:14.260] [DEBUG] debug-file - Change app api release type with 'Beta1'
-[2024-07-29T10:39:14.260] [DEBUG] debug-file - Change app compile API version with '5.0.0.25'
-[2024-07-29T10:39:14.260] [DEBUG] debug-file - Change app target API version with '50000012'
-[2024-07-29T10:39:14.260] [DEBUG] debug-file - Change app minimum API version with '50000012'
-[2024-07-29T10:39:14.260] [DEBUG] debug-file - Use cli appEnvironment
-[2024-07-29T10:39:14.261] [DEBUG] debug-file - sdkdemo : default@MergeProfile cost memory 0.21680450439453125
-[2024-07-29T10:39:14.261] [DEBUG] debug-file - runTaskFromQueue task cost before running: 530 ms 
-[2024-07-29T10:39:14.262] [INFO] debug-file - Finished :sdkdemo:default@MergeProfile... after 2 ms 
-[2024-07-29T10:39:14.262] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-29T10:39:14.262] [DEBUG] debug-file - jsonObjWithoutParam {"name":"sdkdemo","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
-[2024-07-29T10:39:14.262] [DEBUG] debug-file - Executing task :sdkdemo:default@CreateBuildProfile
-[2024-07-29T10:39:14.263] [DEBUG] debug-file - sdkdemo : default@CreateBuildProfile cost memory 0.073638916015625
-[2024-07-29T10:39:14.263] [DEBUG] debug-file - runTaskFromQueue task cost before running: 532 ms 
-[2024-07-29T10:39:14.263] [INFO] debug-file - Finished :sdkdemo:default@CreateBuildProfile... after 1 ms 
-[2024-07-29T10:39:14.264] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-29T10:39:14.264] [DEBUG] debug-file - jsonObjWithoutParam {"name":"sdkdemo","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
-[2024-07-29T10:39:14.264] [DEBUG] debug-file - Executing task :sdkdemo:default@PreCheckSyscap
-[2024-07-29T10:39:14.264] [DEBUG] debug-file - sdkdemo : default@PreCheckSyscap cost memory 0.0144500732421875
-[2024-07-29T10:39:14.264] [DEBUG] debug-file - runTaskFromQueue task cost before running: 533 ms 
-[2024-07-29T10:39:14.264] [INFO] debug-file - Finished :sdkdemo:default@PreCheckSyscap... after 1 ms 
-[2024-07-29T10:39:14.265] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-29T10:39:14.265] [DEBUG] debug-file - jsonObjWithoutParam {"name":"sdkdemo","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
-[2024-07-29T10:39:14.269] [DEBUG] debug-file - Executing task :sdkdemo:default@GeneratePkgContextInfo
-[2024-07-29T10:39:14.270] [DEBUG] debug-file - sdkdemo : default@GeneratePkgContextInfo cost memory 0.04494476318359375
-[2024-07-29T10:39:14.270] [DEBUG] debug-file - runTaskFromQueue task cost before running: 539 ms 
-[2024-07-29T10:39:14.270] [INFO] debug-file - Finished :sdkdemo:default@GeneratePkgContextInfo... after 1 ms 
-[2024-07-29T10:39:14.270] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-29T10:39:14.270] [DEBUG] debug-file - jsonObjWithoutParam {"name":"sdkdemo","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
-[2024-07-29T10:39:14.271] [DEBUG] debug-file - Executing task :sdkdemo:default@ProcessIntegratedHsp
-[2024-07-29T10:39:14.271] [DEBUG] debug-file - sdkdemo : default@ProcessIntegratedHsp cost memory 0.04448699951171875
-[2024-07-29T10:39:14.271] [DEBUG] debug-file - runTaskFromQueue task cost before running: 540 ms 
-[2024-07-29T10:39:14.271] [INFO] debug-file - Finished :sdkdemo:default@ProcessIntegratedHsp... after 1 ms 
-[2024-07-29T10:39:14.272] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-29T10:39:14.272] [DEBUG] debug-file - jsonObjWithoutParam {"name":"sdkdemo","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
-[2024-07-29T10:39:14.272] [DEBUG] debug-file - Executing task :sdkdemo:default@BuildNativeWithCmake
-[2024-07-29T10:39:14.272] [DEBUG] debug-file - sdkdemo : default@BuildNativeWithCmake cost memory 0.0143585205078125
-[2024-07-29T10:39:14.272] [DEBUG] debug-file - runTaskFromQueue task cost before running: 541 ms 
-[2024-07-29T10:39:14.272] [INFO] debug-file - Finished :sdkdemo:default@BuildNativeWithCmake... after 1 ms 
-[2024-07-29T10:39:14.273] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-29T10:39:14.273] [DEBUG] debug-file - jsonObjWithoutParam {"name":"sdkdemo","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
-[2024-07-29T10:39:14.273] [DEBUG] debug-file - Executing task :sdkdemo:default@MakePackInfo
-[2024-07-29T10:39:14.274] [DEBUG] debug-file - Module Pack Info:  {
-  summary: {
-    app: {
-      bundleName: 'com.tencent.iot.explorer.link',
-      bundleType: 'app',
-      version: [Object]
-    },
-    modules: [ [Object] ]
-  },
-  packages: [
-    {
-      deviceType: [Array],
-      moduleType: 'feature',
-      deliveryWithInstall: true,
-      name: 'sdkdemo-default'
-    }
-  ]
-}
-[2024-07-29T10:39:14.274] [DEBUG] debug-file - sdkdemo : default@MakePackInfo cost memory 0.11394500732421875
-[2024-07-29T10:39:14.274] [DEBUG] debug-file - runTaskFromQueue task cost before running: 543 ms 
-[2024-07-29T10:39:14.275] [INFO] debug-file - Finished :sdkdemo:default@MakePackInfo... after 2 ms 
-[2024-07-29T10:39:14.275] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-29T10:39:14.275] [DEBUG] debug-file - jsonObjWithoutParam {"name":"sdkdemo","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
-[2024-07-29T10:39:14.276] [DEBUG] debug-file - Executing task :sdkdemo:default@ProcessProfile
-[2024-07-29T10:39:14.276] [DEBUG] debug-file - [
-  '/Applications/DevEco-Studio.app/Contents/tools/node/bin/node',
-  '/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/build-tools/ets-loader/bin/ark/ts2abc.js',
-  '--target-api-version',
-  '12'
-]
-[2024-07-29T10:39:14.313] [DEBUG] debug-file - 12.0.2.0
-[2024-07-29T10:39:14.314] [DEBUG] debug-file - sdkdemo : default@ProcessProfile cost memory 0.43268585205078125
-[2024-07-29T10:39:14.314] [DEBUG] debug-file - runTaskFromQueue task cost before running: 582 ms 
-[2024-07-29T10:39:14.314] [INFO] debug-file - Finished :sdkdemo:default@ProcessProfile... after 39 ms 
-[2024-07-29T10:39:14.315] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-29T10:39:14.315] [DEBUG] debug-file - jsonObjWithoutParam {"name":"sdkdemo","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
-[2024-07-29T10:39:14.315] [DEBUG] debug-file - Executing task :sdkdemo:default@SyscapTransform
-[2024-07-29T10:39:14.315] [DEBUG] debug-file - sdkdemo : default@SyscapTransform cost memory 0.02597808837890625
-[2024-07-29T10:39:14.315] [DEBUG] debug-file - runTaskFromQueue task cost before running: 584 ms 
-[2024-07-29T10:39:14.316] [INFO] debug-file - Finished :sdkdemo:default@SyscapTransform... after 1 ms 
-[2024-07-29T10:39:14.316] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-29T10:39:14.316] [DEBUG] debug-file - jsonObjWithoutParam {"name":"sdkdemo","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
-[2024-07-29T10:39:14.317] [DEBUG] debug-file - Executing task :sdkdemo:default@ProcessRouterMap
-[2024-07-29T10:39:14.320] [DEBUG] debug-file - sdkdemo : default@ProcessRouterMap cost memory 0.5224685668945312
-[2024-07-29T10:39:14.320] [DEBUG] debug-file - runTaskFromQueue task cost before running: 588 ms 
-[2024-07-29T10:39:14.320] [INFO] debug-file - Finished :sdkdemo:default@ProcessRouterMap... after 3 ms 
-[2024-07-29T10:39:14.320] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-29T10:39:14.320] [DEBUG] debug-file - jsonObjWithoutParam {"name":"sdkdemo","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
-[2024-07-29T10:39:14.321] [DEBUG] debug-file - Executing task :sdkdemo:default@BuildNativeWithNinja
-[2024-07-29T10:39:14.321] [DEBUG] debug-file - sdkdemo : default@BuildNativeWithNinja cost memory 0.033355712890625
-[2024-07-29T10:39:14.321] [DEBUG] debug-file - runTaskFromQueue task cost before running: 590 ms 
-[2024-07-29T10:39:14.321] [INFO] debug-file - Finished :sdkdemo:default@BuildNativeWithNinja... after 1 ms 
-[2024-07-29T10:39:14.321] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-29T10:39:14.322] [DEBUG] debug-file - jsonObjWithoutParam {"name":"sdkdemo","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
-[2024-07-29T10:39:14.322] [DEBUG] debug-file - restool module names: sdkdemo,entry; moduleName=sdkdemo, taskName=default@ProcessResource
-[2024-07-29T10:39:14.323] [DEBUG] debug-file - Executing task :sdkdemo:default@ProcessResource
-[2024-07-29T10:39:14.323] [DEBUG] debug-file - sdkdemo : default@ProcessResource cost memory 0.0828704833984375
-[2024-07-29T10:39:14.324] [DEBUG] debug-file - runTaskFromQueue task cost before running: 593 ms 
-[2024-07-29T10:39:14.324] [INFO] debug-file - Finished :sdkdemo:default@ProcessResource... after 1 ms 
-[2024-07-29T10:39:14.325] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-29T10:39:14.325] [DEBUG] debug-file - jsonObjWithoutParam {"name":"sdkdemo","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
-[2024-07-29T10:39:14.326] [DEBUG] debug-file - Executing task :sdkdemo:default@GenerateLoaderJson
-[2024-07-29T10:39:14.331] [DEBUG] debug-file - sdkdemo : default@GenerateLoaderJson cost memory 0.9654693603515625
-[2024-07-29T10:39:14.331] [DEBUG] debug-file - runTaskFromQueue task cost before running: 599 ms 
-[2024-07-29T10:39:14.332] [INFO] debug-file - Finished :sdkdemo:default@GenerateLoaderJson... after 5 ms 
-[2024-07-29T10:39:14.333] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-29T10:39:14.333] [DEBUG] debug-file - jsonObjWithoutParam {"name":"sdkdemo","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
-[2024-07-29T10:39:14.335] [DEBUG] debug-file - Executing task :sdkdemo:default@ProcessLibs
-[2024-07-29T10:39:14.336] [DEBUG] debug-file - default@ProcessLibs work[0] is submitted.
-[2024-07-29T10:39:14.336] [DEBUG] debug-file - default@ProcessLibs work[0] is pushed to ready queue.
-[2024-07-29T10:39:14.336] [DEBUG] debug-file - A work dispatched to worker[11] failed because unable to get work from ready queue.
-[2024-07-29T10:39:14.337] [DEBUG] debug-file - default@ProcessLibs work[0] has been dispatched to worker[10].
-[2024-07-29T10:39:14.337] [DEBUG] debug-file - default@ProcessLibs work[0] is dispatched.
-[2024-07-29T10:39:14.337] [DEBUG] debug-file - sdkdemo : default@ProcessLibs cost memory 0.622802734375
-[2024-07-29T10:39:14.337] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-29T10:39:14.337] [DEBUG] debug-file - jsonObjWithoutParam {"name":"sdkdemo","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
-[2024-07-29T10:39:14.337] [DEBUG] debug-file - restool module names: sdkdemo,entry; moduleName=sdkdemo, taskName=default@CompileResource
-[2024-07-29T10:39:14.339] [DEBUG] debug-file - Executing task :sdkdemo:default@CompileResource
-[2024-07-29T10:39:14.399] [DEBUG] debug-file - Use tool [/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/toolchains/restool]
- [
-  '/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/toolchains/restool',
-  '-l',
-  '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/res/default/resConfig.json'
-]
-[2024-07-29T10:39:14.400] [DEBUG] debug-file - current process  memoryUsage: {
-  rss: 280231936,
-  heapTotal: 143409152,
-  heapUsed: 115400776,
-  external: 1385671,
-  arrayBuffers: 75873
-} os memoryUsage :31.052871704101562
-[2024-07-29T10:39:14.428] [DEBUG] debug-file - Warning: 'page_show' conflict, first declared.
-at /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencentyun+libiotvideo@1.0.1/oh_modules/@tencentyun/libiotvideo/src/main/resources/base/element/string.json
-but declared again.
-at /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@ohos+ijkplayer@2.0.4/oh_modules/@ohos/ijkplayer/src/main/resources/base/element/string.json
-Warning: 'page_show' conflict, first declared.
-at /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencentyun+libiotvideo@1.0.1/oh_modules/@tencentyun/libiotvideo/src/main/resources/en_US/element/string.json
-but declared again.
-at /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@ohos+ijkplayer@2.0.4/oh_modules/@ohos/ijkplayer/src/main/resources/en_US/element/string.json
-Warning: 'page_show' conflict, first declared.
-at /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencentyun+libiotvideo@1.0.1/oh_modules/@tencentyun/libiotvideo/src/main/resources/zh_CN/element/string.json
-but declared again.
-at /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@ohos+ijkplayer@2.0.4/oh_modules/@ohos/ijkplayer/src/main/resources/zh_CN/element/string.json
-
-[2024-07-29T10:39:14.429] [DEBUG] debug-file - Warning: /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/src/main/resources/base/media/layered_image.json is not png format
-
-[2024-07-29T10:39:14.429] [DEBUG] debug-file - Info: restool resources compile success.
-
-[2024-07-29T10:39:14.432] [DEBUG] debug-file - sdkdemo : default@CompileResource cost memory 0.26853179931640625
-[2024-07-29T10:39:14.432] [DEBUG] debug-file - runTaskFromQueue task cost before running: 701 ms 
-[2024-07-29T10:39:14.432] [INFO] debug-file - Finished :sdkdemo:default@CompileResource... after 94 ms 
-[2024-07-29T10:39:14.433] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-29T10:39:14.433] [DEBUG] debug-file - jsonObjWithoutParam {"name":"sdkdemo","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
-[2024-07-29T10:39:14.435] [DEBUG] debug-file - Executing task :sdkdemo:default@CompileArkTS
-[2024-07-29T10:39:14.448] [DEBUG] debug-file - build config:
-[2024-07-29T10:39:14.448] [DEBUG] debug-file - {
-  moduleType: 'feature',
-  perf: 0,
-  targetName: '.default',
-  packageManagerType: 'ohpm',
-  localPropertiesPath: '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/local.properties',
-  isPreview: false,
-  isOhosTest: false,
-  buildMode: 'Debug',
-  watchMode: 'false',
-  aceProfilePath: '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/res/default/resources/base/profile',
-  etsLoaderPath: '/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/build-tools/ets-loader',
-  modulePath: '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo',
-  testFrameworkPar: {
-    testMode: undefined,
-    coveragePathFilter: undefined,
-    coverageMode: undefined
-  },
-  needCoverageInsert: false,
-  debugLine: false,
-  projectTopDir: '/Users/heyu/DevEcoStudioProjects/iot-link-ohos',
-  compileSdkVersion: 12,
-  compatibleSdkVersion: 12,
-  bundleName: 'com.tencent.iot.explorer.link',
-  etsLoaderVersion: '5.0.0.25',
-  etsLoaderReleaseType: 'Beta1',
-  aotCompileMode: 'type',
-  apPath: '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/modules.ap',
-  entryModuleName: 'sdkdemo',
-  entryModuleVersion: '1.0.0',
-  entryPackageName: 'sdkdemo',
-  allModuleNameHash: 'ce02eeec4c7367019ad2c86b155813bf',
-  externalApiPaths: [
-    '/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/hms/ets'
-  ],
-  compilerTypes: undefined,
-  isCrossplatform: false,
-  hvigorPluginFile: undefined,
-  buildGeneratedProfilePath: '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/generated/profile/default',
-  bundleType: 'app',
-  arkTSVersion: undefined,
-  apiVersion: 12,
-  needCompleteSourcesMap: false,
-  isFaMode: false,
-  strictMode: undefined,
-  buildDir: '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build',
-  deviceTypes: [ 'phone', 'tablet' ],
-  moduleDependencies: { dependency: {} },
-  projectDependencies: {
-    '@hw-agconnect/petal-aegis': '^1.4.7-301',
-    '@ohos/hamock': '1.0.0',
-    '@ohos/hypium': '1.0.18',
-    '@ohos/ijkplayer': '^2.0.4',
-    '@tencent/mmkv': '^1.3.7',
-    '@tencentyun/libiotvideo': '^1.0.1',
-    dependency: {}
-  },
-  useNormalizedOHMUrl: false,
-  pkgContextInfo: undefined,
-  ohPackagePathMap: {},
-  dependencyAliasMap: {},
-  permission: { requestPermissions: [ [Object] ], definePermissions: undefined },
-  integratedHsp: false,
-  projectArkOption: undefined,
-  sourceMapDir: undefined,
-  branchElimination: false,
-  transformLib: undefined,
-  caseSensitiveCheck: false,
-  tsImportSendable: false,
-  resolveConflictMode: true,
-  depName2RootPath: {},
-  aceModuleJsonPath: '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/res/default/module.json',
-  appResource: '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/res/default/ResourceTable.txt',
-  rawFileResource: '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/res/default/resources/rawfile',
-  resourceTableHash: '2e84b16904229fec13af0489d09d1519',
-  runtimeOS: 'HarmonyOS',
-  sdkInfo: 'false:12:5.0.0.25:Beta1',
-  aceModuleRoot: '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/src/main/ets',
-  compileMode: 'esmodule',
-  aceSuperVisualPath: '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/src/main/supervisual',
-  aceBuildJson: '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/loader/default/loader.json',
-  cachePath: '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/cache/default/default@CompileArkTS/esmodule/debug',
-  aceModuleBuild: '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/loader_out/default/ets',
-  supportChunks: true,
-  pkgNameToPkgBriefInfo: {
-    '@tencent/mmkv': {
-      pkgRoot: '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencent+mmkv@1.3.9/oh_modules/@tencent/mmkv',
-      pkgName: '@tencent/mmkv',
-      sourceRoots: [Array]
-    },
-    '@hw-agconnect/petal-aegis': {
-      pkgRoot: '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@hw-agconnect+petal-aegis@1.4.7-301/oh_modules/@hw-agconnect/petal-aegis',
-      pkgName: '@hw-agconnect/petal-aegis',
-      sourceRoots: undefined
-    },
-    '@tencentyun/libiotvideo': {
-      pkgRoot: '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencentyun+libiotvideo@1.0.1/oh_modules/@tencentyun/libiotvideo',
-      pkgName: '@tencentyun/libiotvideo',
-      sourceRoots: [Array]
-    },
-    '@ohos/ijkplayer': {
-      pkgRoot: '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@ohos+ijkplayer@2.0.4/oh_modules/@ohos/ijkplayer',
-      pkgName: '@ohos/ijkplayer',
-      sourceRoots: [Array]
-    },
-    sdkdemo: {
-      pkgRoot: '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo',
-      originalSourceRoots: undefined,
-      sourceRoots: [Array],
-      pkgName: 'sdkdemo'
-    }
-  },
-  projectModel: {
-    '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/entry/src/main': {
-      moduleName: 'entry',
-      modulePkgPath: '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/entry'
-    },
-    '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/entry/build/default/intermediates/src/ohosTest/ets': {
-      moduleName: 'entry_test',
-      modulePkgPath: '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/entry'
-    },
-    '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/entry/src/ohosTest': {
-      moduleName: 'entry_test',
-      modulePkgPath: '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/entry'
-    },
-    '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/entry': {
-      moduleName: 'entry',
-      modulePkgPath: '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/entry'
-    },
-    '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/src/main': {
-      moduleName: 'sdkdemo',
-      modulePkgPath: '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo'
-    },
-    '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/src/ohosTest/ets': {
-      moduleName: 'sdkdemo_test',
-      modulePkgPath: '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo'
-    },
-    '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/src/ohosTest': {
-      moduleName: 'sdkdemo_test',
-      modulePkgPath: '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo'
-    },
-    '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo': {
-      moduleName: 'sdkdemo',
-      modulePkgPath: '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo'
-    },
-    '/Users/heyu/DevEcoStudioProjects/iot-link-ohos': {
-      moduleName: 'iot-link-ohos',
-      modulePkgPath: '/Users/heyu/DevEcoStudioProjects/iot-link-ohos'
-    }
-  },
-  pkgJsonFileHash: '22971204d69aadd30bcd86ee9899696e',
-  allModulePaths: [
-    '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/entry',
-    '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo'
-  ],
-  routerMap: {},
-  obfuscationOptions: undefined,
-  mockParams: {
-    decorator: '@MockSetup',
-    packageName: '@ohos/hamock',
-    etsSourceRootPath: 'src/main/ets',
-    mockConfigPath: '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/src/mock/mock-config.json5',
-    mockConfigKey2ModuleInfo: {}
-  },
-  otherPaths: {
-    '@tencent/mmkv/*': [
-      '../../../../oh_modules/.ohpm/@tencent+mmkv@1.3.9/oh_modules/@tencent/mmkv/src/main/*'
-    ],
-    '@tencentyun/libiotvideo/*': [
-      '../../../../oh_modules/.ohpm/@tencentyun+libiotvideo@1.0.1/oh_modules/@tencentyun/libiotvideo/src/main/*'
-    ],
-    '@ohos/ijkplayer/*': [
-      '../../../../oh_modules/.ohpm/@ohos+ijkplayer@2.0.4/oh_modules/@ohos/ijkplayer/src/main/*'
-    ],
-    'sdkdemo/*': [ '../*', '../../../build/default/generated/profile/default/*' ]
-  },
-  collectImportersConfig: undefined
-}
-[2024-07-29T10:39:14.448] [DEBUG] debug-file - Compile arkts with external api path: /Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/hms/ets
-[2024-07-29T10:39:14.449] [DEBUG] debug-file - default@CompileArkTS work[1] is submitted.
-[2024-07-29T10:39:14.449] [DEBUG] debug-file - default@CompileArkTS work[1] is pushed to ready queue.
-[2024-07-29T10:39:14.449] [DEBUG] debug-file - A work dispatched to worker[11] failed because unable to get work from ready queue.
-[2024-07-29T10:39:14.449] [DEBUG] debug-file - A work dispatched to worker[10] failed because of worker busy.
-[2024-07-29T10:39:14.449] [DEBUG] debug-file - A work dispatched to worker[9] failed because unable to get work from ready queue.
-[2024-07-29T10:39:14.449] [DEBUG] debug-file - A work dispatched to worker[8] failed because unable to get work from ready queue.
-[2024-07-29T10:39:14.449] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
-[2024-07-29T10:39:14.449] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
-[2024-07-29T10:39:14.449] [DEBUG] debug-file - A work dispatched to worker[5] failed because unable to get work from ready queue.
-[2024-07-29T10:39:14.449] [DEBUG] debug-file - A work dispatched to worker[4] failed because unable to get work from ready queue.
-[2024-07-29T10:39:14.449] [DEBUG] debug-file - A work dispatched to worker[3] failed because unable to get work from ready queue.
-[2024-07-29T10:39:14.449] [DEBUG] debug-file - A work dispatched to worker[2] failed because unable to get work from ready queue.
-[2024-07-29T10:39:14.449] [DEBUG] debug-file - A work dispatched to worker[1] failed because unable to get work from ready queue.
-[2024-07-29T10:39:14.449] [DEBUG] debug-file - default@CompileArkTS work[1] has been dispatched to worker[0].
-[2024-07-29T10:39:14.449] [DEBUG] debug-file - default@CompileArkTS work[1] is dispatched.
-[2024-07-29T10:39:14.449] [DEBUG] debug-file - CopyResources startTime: 418767535633916
-[2024-07-29T10:39:14.450] [DEBUG] debug-file - default@CompileArkTS work[2] is submitted.
-[2024-07-29T10:39:14.450] [DEBUG] debug-file - default@CompileArkTS work[2] is pushed to ready queue.
-[2024-07-29T10:39:14.450] [DEBUG] debug-file - A work dispatched to worker[11] failed because unable to get work from ready queue.
-[2024-07-29T10:39:14.450] [DEBUG] debug-file - A work dispatched to worker[10] failed because of worker busy.
-[2024-07-29T10:39:14.450] [DEBUG] debug-file - default@CompileArkTS work[2] has been dispatched to worker[9].
-[2024-07-29T10:39:14.450] [DEBUG] debug-file - default@CompileArkTS work[2] is dispatched.
-[2024-07-29T10:39:14.450] [DEBUG] debug-file - sdkdemo : default@CompileArkTS cost memory 1.6673660278320312
-[2024-07-29T10:39:14.451] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-29T10:39:14.451] [DEBUG] debug-file - jsonObjWithoutParam {"name":"sdkdemo","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
-[2024-07-29T10:39:14.452] [DEBUG] debug-file - Executing task :sdkdemo:default@BuildJS
-[2024-07-29T10:39:14.453] [DEBUG] debug-file - sdkdemo : default@BuildJS cost memory 0.10717010498046875
-[2024-07-29T10:39:14.453] [DEBUG] debug-file - runTaskFromQueue task cost before running: 722 ms 
-[2024-07-29T10:39:14.453] [INFO] debug-file - Finished :sdkdemo:default@BuildJS... after 1 ms 
-[2024-07-29T10:39:14.586] [DEBUG] debug-file - Link /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencentyun+libiotvideo@1.0.1/oh_modules/@tencentyun/libiotvideo/libs/arm64-v8a/libc++_shared.so to /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default/arm64-v8a/libc++_shared.so successfully.
-[2024-07-29T10:39:14.586] [DEBUG] debug-file - Link /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@ohos+ijkplayer@2.0.4/oh_modules/@ohos/ijkplayer/libs/arm64-v8a/libijkplayer.so to /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default/arm64-v8a/libijkplayer.so successfully.
-[2024-07-29T10:39:14.587] [DEBUG] debug-file - Link /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@ohos+ijkplayer@2.0.4/oh_modules/@ohos/ijkplayer/libs/arm64-v8a/libijkplayer_audio_napi.so to /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default/arm64-v8a/libijkplayer_audio_napi.so successfully.
-[2024-07-29T10:39:14.587] [DEBUG] debug-file - Link /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@ohos+ijkplayer@2.0.4/oh_modules/@ohos/ijkplayer/libs/arm64-v8a/libijkplayer_napi.so to /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default/arm64-v8a/libijkplayer_napi.so successfully.
-[2024-07-29T10:39:14.587] [DEBUG] debug-file - Link /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@ohos+ijkplayer@2.0.4/oh_modules/@ohos/ijkplayer/libs/arm64-v8a/libijksdl.so to /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default/arm64-v8a/libijksdl.so successfully.
-[2024-07-29T10:39:14.588] [DEBUG] debug-file - Link /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@ohos+ijkplayer@2.0.4/oh_modules/@ohos/ijkplayer/libs/x86_64/libc++_shared.so to /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default/x86_64/libc++_shared.so successfully.
-[2024-07-29T10:39:14.588] [DEBUG] debug-file - Link /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@ohos+ijkplayer@2.0.4/oh_modules/@ohos/ijkplayer/libs/x86_64/libijkplayer.so to /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default/x86_64/libijkplayer.so successfully.
-[2024-07-29T10:39:14.588] [DEBUG] debug-file - Link /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@ohos+ijkplayer@2.0.4/oh_modules/@ohos/ijkplayer/libs/x86_64/libijkplayer_audio_napi.so to /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default/x86_64/libijkplayer_audio_napi.so successfully.
-[2024-07-29T10:39:14.589] [DEBUG] debug-file - Link /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@ohos+ijkplayer@2.0.4/oh_modules/@ohos/ijkplayer/libs/x86_64/libijkplayer_napi.so to /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default/x86_64/libijkplayer_napi.so successfully.
-[2024-07-29T10:39:14.589] [DEBUG] debug-file - Link /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@ohos+ijkplayer@2.0.4/oh_modules/@ohos/ijkplayer/libs/x86_64/libijksdl.so to /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default/x86_64/libijksdl.so successfully.
-[2024-07-29T10:39:14.590] [DEBUG] debug-file - Link /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencentyun+libiotvideo@1.0.1/oh_modules/@tencentyun/libiotvideo/libs/arm64-v8a/libcurl.so to /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default/arm64-v8a/libcurl.so successfully.
-[2024-07-29T10:39:14.592] [DEBUG] debug-file - Link /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencentyun+libiotvideo@1.0.1/oh_modules/@tencentyun/libiotvideo/libs/arm64-v8a/liblibiotvideo.so to /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default/arm64-v8a/liblibiotvideo.so successfully.
-[2024-07-29T10:39:14.593] [DEBUG] debug-file - Link /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencentyun+libiotvideo@1.0.1/oh_modules/@tencentyun/libiotvideo/libs/armeabi-v7a/libcurl.so to /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default/armeabi-v7a/libcurl.so successfully.
-[2024-07-29T10:39:14.593] [DEBUG] debug-file - Link /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencent+mmkv@1.3.9/oh_modules/@tencent/mmkv/libs/arm64-v8a/libmmkv.so to /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default/arm64-v8a/libmmkv.so successfully.
-[2024-07-29T10:39:14.594] [DEBUG] debug-file - Link /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencent+mmkv@1.3.9/oh_modules/@tencent/mmkv/libs/x86_64/libmmkv.so to /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default/x86_64/libmmkv.so successfully.
-[2024-07-29T10:39:14.594] [DEBUG] debug-file - default@ProcessLibs work[0] done.
-[2024-07-29T10:39:14.594] [INFO] debug-file - Finished :sdkdemo:default@ProcessLibs... after 260 ms 
-[2024-07-29T10:39:14.595] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-29T10:39:14.595] [DEBUG] debug-file - jsonObjWithoutParam {"name":"sdkdemo","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
-[2024-07-29T10:39:14.596] [DEBUG] debug-file - Executing task :sdkdemo:default@DoNativeStrip
-[2024-07-29T10:39:14.596] [DEBUG] debug-file - default@DoNativeStrip work[3] is submitted.
-[2024-07-29T10:39:14.597] [DEBUG] debug-file - default@DoNativeStrip work[3] is pushed to ready queue.
-[2024-07-29T10:39:14.597] [DEBUG] debug-file - default@DoNativeStrip work[3] is not dispatched.
-[2024-07-29T10:39:14.597] [DEBUG] debug-file - sdkdemo : default@DoNativeStrip cost memory 0.33119964599609375
-[2024-07-29T10:39:14.675] [DEBUG] debug-file - CopyResources is end, endTime: 418767761016083
-[2024-07-29T10:39:14.675] [DEBUG] debug-file - default@CompileArkTS work[2] done.
-[2024-07-29T10:39:14.776] [DEBUG] debug-file - default@DoNativeStrip work[3] has been dispatched to worker[9].
-[2024-07-29T10:39:14.796] [DEBUG] debug-file - A work dispatched to worker[10] failed because unable to get work from ready queue.
-[2024-07-29T10:39:14.796] [DEBUG] debug-file - A work dispatched to worker[11] failed because unable to get work from ready queue.
-[2024-07-29T10:39:14.796] [DEBUG] debug-file - A work dispatched to worker[10] failed because unable to get work from ready queue.
-[2024-07-29T10:39:14.796] [DEBUG] debug-file - A work dispatched to worker[9] failed because of worker busy.
-[2024-07-29T10:39:14.796] [DEBUG] debug-file - A work dispatched to worker[8] failed because unable to get work from ready queue.
-[2024-07-29T10:39:14.796] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
-[2024-07-29T10:39:14.797] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
-[2024-07-29T10:39:14.797] [DEBUG] debug-file - A work dispatched to worker[5] failed because unable to get work from ready queue.
-[2024-07-29T10:39:14.797] [DEBUG] debug-file - A work dispatched to worker[4] failed because unable to get work from ready queue.
-[2024-07-29T10:39:14.797] [DEBUG] debug-file - A work dispatched to worker[3] failed because unable to get work from ready queue.
-[2024-07-29T10:39:14.797] [DEBUG] debug-file - A work dispatched to worker[2] failed because unable to get work from ready queue.
-[2024-07-29T10:39:14.797] [DEBUG] debug-file - A work dispatched to worker[1] failed because unable to get work from ready queue.
-[2024-07-29T10:39:14.797] [DEBUG] debug-file - A work dispatched to worker[0] failed because of worker busy.
-[2024-07-29T10:39:14.802] [DEBUG] debug-file - Do not need strip, copying .so files to stripped_native_libs
-[2024-07-29T10:39:14.805] [DEBUG] debug-file - Link /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default/x86_64/libmmkv.so to /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/stripped_native_libs/default/x86_64/libmmkv.so successfully.
-[2024-07-29T10:39:14.805] [DEBUG] debug-file - Link /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default/armeabi-v7a/libcurl.so to /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/stripped_native_libs/default/armeabi-v7a/libcurl.so successfully.
-[2024-07-29T10:39:14.805] [DEBUG] debug-file - Link /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default/arm64-v8a/libmmkv.so to /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/stripped_native_libs/default/arm64-v8a/libmmkv.so successfully.
-[2024-07-29T10:39:14.805] [DEBUG] debug-file - Link /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default/x86_64/libijksdl.so to /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/stripped_native_libs/default/x86_64/libijksdl.so successfully.
-[2024-07-29T10:39:14.805] [DEBUG] debug-file - Link /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default/x86_64/libijkplayer_audio_napi.so to /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/stripped_native_libs/default/x86_64/libijkplayer_audio_napi.so successfully.
-[2024-07-29T10:39:14.805] [DEBUG] debug-file - Link /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default/x86_64/libijkplayer_napi.so to /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/stripped_native_libs/default/x86_64/libijkplayer_napi.so successfully.
-[2024-07-29T10:39:14.806] [DEBUG] debug-file - Link /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default/x86_64/libijkplayer.so to /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/stripped_native_libs/default/x86_64/libijkplayer.so successfully.
-[2024-07-29T10:39:14.806] [DEBUG] debug-file - Link /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default/x86_64/libc++_shared.so to /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/stripped_native_libs/default/x86_64/libc++_shared.so successfully.
-[2024-07-29T10:39:14.806] [DEBUG] debug-file - Link /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default/arm64-v8a/liblibiotvideo.so to /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/stripped_native_libs/default/arm64-v8a/liblibiotvideo.so successfully.
-[2024-07-29T10:39:14.806] [DEBUG] debug-file - Link /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default/arm64-v8a/libijkplayer_napi.so to /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/stripped_native_libs/default/arm64-v8a/libijkplayer_napi.so successfully.
-[2024-07-29T10:39:14.806] [DEBUG] debug-file - Link /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default/arm64-v8a/libijkplayer.so to /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/stripped_native_libs/default/arm64-v8a/libijkplayer.so successfully.
-[2024-07-29T10:39:14.806] [DEBUG] debug-file - Link /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default/arm64-v8a/libijksdl.so to /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/stripped_native_libs/default/arm64-v8a/libijksdl.so successfully.
-[2024-07-29T10:39:14.807] [DEBUG] debug-file - Link /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default/arm64-v8a/libcurl.so to /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/stripped_native_libs/default/arm64-v8a/libcurl.so successfully.
-[2024-07-29T10:39:14.807] [DEBUG] debug-file - Link /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default/arm64-v8a/libijkplayer_audio_napi.so to /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/stripped_native_libs/default/arm64-v8a/libijkplayer_audio_napi.so successfully.
-[2024-07-29T10:39:14.807] [DEBUG] debug-file - Link /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default/arm64-v8a/libc++_shared.so to /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/stripped_native_libs/default/arm64-v8a/libc++_shared.so successfully.
-[2024-07-29T10:39:14.807] [DEBUG] debug-file - default@DoNativeStrip work[3] done.
-[2024-07-29T10:39:14.807] [DEBUG] debug-file - A work dispatched to worker[9] failed because unable to get work from ready queue.
-[2024-07-29T10:39:14.807] [INFO] debug-file - Finished :sdkdemo:default@DoNativeStrip... after 32 ms 
-[2024-07-29T10:39:14.808] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-29T10:39:14.808] [DEBUG] debug-file - jsonObjWithoutParam {"name":"sdkdemo","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
-[2024-07-29T10:39:14.809] [DEBUG] debug-file - Executing task :sdkdemo:default@CacheNativeLibs
-[2024-07-29T10:39:14.809] [DEBUG] debug-file - default@CacheNativeLibs work[4] is submitted.
-[2024-07-29T10:39:14.809] [DEBUG] debug-file - default@CacheNativeLibs work[4] is pushed to ready queue.
-[2024-07-29T10:39:14.809] [DEBUG] debug-file - A work dispatched to worker[11] failed because unable to get work from ready queue.
-[2024-07-29T10:39:14.809] [DEBUG] debug-file - default@CacheNativeLibs work[4] has been dispatched to worker[10].
-[2024-07-29T10:39:14.809] [DEBUG] debug-file - default@CacheNativeLibs work[4] is dispatched.
-[2024-07-29T10:39:14.809] [DEBUG] debug-file - sdkdemo : default@CacheNativeLibs cost memory 0.1806488037109375
-[2024-07-29T10:39:14.908] [DEBUG] debug-file - default@CacheNativeLibs work[4] done.
-[2024-07-29T10:39:14.908] [DEBUG] debug-file - A work dispatched to worker[10] failed because unable to get work from ready queue.
-[2024-07-29T10:39:14.908] [INFO] debug-file - Finished :sdkdemo:default@CacheNativeLibs... after 100 ms 
-[2024-07-29T10:39:18.047] [INFO] debug-file - [33mWARN: [33mArkTS:WARN File: /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencent+mmkv@1.3.9/oh_modules/@tencent/mmkv/src/main/ets/utils/MMKV.ets:409:13
- Use explicit types instead of "any", "unknown" (arkts-no-any-unknown)
-[39m
-[33mWARN: [33mArkTS:WARN File: /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencent+mmkv@1.3.9/oh_modules/@tencent/mmkv/src/main/ets/utils/MMKV.ets:418:13
- Use explicit types instead of "any", "unknown" (arkts-no-any-unknown)
-[39m
-[33mWARN: [33mArkTS:WARN File: /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencent+mmkv@1.3.9/oh_modules/@tencent/mmkv/src/main/ets/utils/MMKV.ets:427:13
- Use explicit types instead of "any", "unknown" (arkts-no-any-unknown)
-[39m
-[33mWARN: [33mArkTS:WARN File: /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencent+mmkv@1.3.9/oh_modules/@tencent/mmkv/src/main/ets/utils/MMKV.ets:436:13
- Use explicit types instead of "any", "unknown" (arkts-no-any-unknown)
-[39m
-[33mWARN: [33mArkTS:WARN File: /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencent+mmkv@1.3.9/oh_modules/@tencent/mmkv/src/main/ets/utils/MMKV.ets:445:13
- Use explicit types instead of "any", "unknown" (arkts-no-any-unknown)
-[39m
-[33mWARN: [33mArkTS:WARN File: /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencent+mmkv@1.3.9/oh_modules/@tencent/mmkv/src/main/ets/utils/MMKV.ets:454:13
- Use explicit types instead of "any", "unknown" (arkts-no-any-unknown)
-[39m
-[33mWARN: [33mArkTS:WARN File: /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencent+mmkv@1.3.9/oh_modules/@tencent/mmkv/src/main/ets/utils/MMKV.ets:463:13
- Use explicit types instead of "any", "unknown" (arkts-no-any-unknown)
-[39m
-[33mWARN: [33mArkTS:WARN File: /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencent+mmkv@1.3.9/oh_modules/@tencent/mmkv/src/main/ets/utils/MMKV.ets:472:13
- Use explicit types instead of "any", "unknown" (arkts-no-any-unknown)
-[39m
-[33mWARN: [33mArkTS:WARN File: /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencent+mmkv@1.3.9/oh_modules/@tencent/mmkv/src/main/ets/utils/MMKV.ets:481:13
- Use explicit types instead of "any", "unknown" (arkts-no-any-unknown)
-[39m
-[33mWARN: [33mArkTS:WARN File: /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencent+mmkv@1.3.9/oh_modules/@tencent/mmkv/src/main/ets/utils/MMKV.ets:490:13
- Use explicit types instead of "any", "unknown" (arkts-no-any-unknown)
-[39m
-[33mWARN: [33mArkTS:WARN File: /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencent+mmkv@1.3.9/oh_modules/@tencent/mmkv/src/main/ets/utils/MMKV.ets:499:13
- Use explicit types instead of "any", "unknown" (arkts-no-any-unknown)
-[39m
-[33mWARN: [33mArkTS:WARN: For details about ArkTS syntax errors, see FAQs[39m
-[33mWARN: [33mArkTS:WARN File: /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/src/main/ets/viewmodel/VideoViewModel.ets:79:22
- 'getCurrentTime' has been deprecated.
-[39m
-[33mWARN: [33mArkTS:WARN File: /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/src/main/ets/viewmodel/VideoViewModel.ets:101:22
- 'getCurrentTime' has been deprecated.
-[39m
-[33mWARN: [33mArkTS:WARN File: /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencent+mmkv@1.3.9/oh_modules/@tencent/mmkv/src/main/ets/utils/MMKV.ets:21:20
- Currently module for 'libmmkv.so' is not verified. If you're importing napi, its verification will be enabled in later SDK version. Please make sure the corresponding .d.ts file is provided and the napis are correctly declared.
-[39m
-[33mWARN: [33mArkTS:WARN File: /Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@ohos+ijkplayer@2.0.4/oh_modules/@ohos/ijkplayer/src/main/ets/ijkplayer/IjkMediaPlayer.ets:29:35
- Currently module for 'libijkplayer_audio_napi.so' is not verified. If you're importing napi, its verification will be enabled in later SDK version. Please make sure the corresponding .d.ts file is provided and the napis are correctly declared.
-[39m
-[33mWARN: [33mArkTS:WARN File: /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/src/main/ets/pages/VideoInputAuthorizePage.ets:78:14
- The current component id "btn_video_pro" is duplicate with /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/src/main/ets/pages/VideoOptionsPage.ets:69:12.[39m
-[33mWARN: [33mArkTS:WARN File: /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/src/main/ets/pages/InputItem.ets:1:1
- It's not a recommended way to export struct with @Entry decorator, which may cause ACE Engine error in component preview mode.[39m
-[33mWARN: [33mArkTS:WARN File: /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/src/main/ets/pages/InputItem.ets:23:10
- The current component id "iv_more" is duplicate with /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/src/main/ets/pages/VideoMainPage.ets:82:10.[39m
-[33mWARN: [33mArkTS:WARN File: /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/src/main/ets/pages/CheckActionBox.ets:1:1
- It's not a recommended way to export struct with @Entry decorator, which may cause ACE Engine error in component preview mode.[39m
-[33mWARN: [33mArkTS:WARN File: /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/src/main/ets/pages/CheckActionBox.ets:12:10
- The current component id "iv_more" is duplicate with /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/src/main/ets/pages/VideoMainPage.ets:82:10.[39m
-[33mWARN: [33mArkTS:WARN File: /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/src/main/ets/pages/CheckActionBox.ets:16:10
- The current component id "tv_tip" is duplicate with /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/src/main/ets/pages/InputItem.ets:14:10.[39m
-
-[2024-07-29T10:39:18.048] [DEBUG] debug-file - Ark compile task finished.finished time is 418771133681166
-[2024-07-29T10:39:18.050] [DEBUG] debug-file - default@CompileArkTS work[1] done.
-[2024-07-29T10:39:18.050] [DEBUG] debug-file - A work dispatched to worker[0] failed because unable to get work from ready queue.
-[2024-07-29T10:39:18.050] [INFO] debug-file - Finished :sdkdemo:default@CompileArkTS... after 3 s 616 ms 
-[2024-07-29T10:39:18.051] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-29T10:39:18.051] [DEBUG] debug-file - jsonObjWithoutParam {"name":"sdkdemo","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
-[2024-07-29T10:39:18.051] [DEBUG] debug-file - Executing task :sdkdemo:default@GeneratePkgModuleJson
-[2024-07-29T10:39:18.052] [DEBUG] debug-file - sdkdemo : default@GeneratePkgModuleJson cost memory 0.03340911865234375
-[2024-07-29T10:39:18.052] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 321 ms 
-[2024-07-29T10:39:18.052] [INFO] debug-file - Finished :sdkdemo:default@GeneratePkgModuleJson... after 1 ms 
-[2024-07-29T10:39:18.052] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-29T10:39:18.052] [DEBUG] debug-file - jsonObjWithoutParam {"name":"sdkdemo","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
-[2024-07-29T10:39:18.054] [DEBUG] debug-file - Executing task :sdkdemo:default@PackageHap
-[2024-07-29T10:39:18.056] [DEBUG] debug-file - Use tool [/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/toolchains/lib/app_packing_tool.jar]
- [
-  'java',
-  '-Dfile.encoding=utf-8',
-  '-jar',
-  '/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/toolchains/lib/app_packing_tool.jar',
-  '--mode',
-  'hap',
-  '--force',
-  'true',
-  '--lib-path',
-  '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/stripped_native_libs/default',
-  '--json-path',
-  '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/package/default/module.json',
-  '--resources-path',
-  '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/res/default/resources',
-  '--index-path',
-  '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/res/default/resources.index',
-  '--pack-info-path',
-  '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/outputs/default/pack.info',
-  '--out-path',
-  '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/outputs/default/sdkdemo-default-unsigned.hap',
-  '--ets-path',
-  '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/loader_out/default/ets'
-]
-[2024-07-29T10:39:18.056] [DEBUG] debug-file - default@PackageHap work[5] is submitted.
-[2024-07-29T10:39:18.056] [DEBUG] debug-file - default@PackageHap work[5] is pushed to ready queue.
-[2024-07-29T10:39:18.056] [DEBUG] debug-file - A work dispatched to worker[11] failed because unable to get work from ready queue.
-[2024-07-29T10:39:18.056] [DEBUG] debug-file - default@PackageHap work[5] has been dispatched to worker[10].
-[2024-07-29T10:39:18.056] [DEBUG] debug-file - default@PackageHap work[5] is dispatched.
-[2024-07-29T10:39:18.057] [DEBUG] debug-file - sdkdemo : default@PackageHap cost memory 0.48836517333984375
-[2024-07-29T10:39:18.058] [DEBUG] debug-file - current process  memoryUsage: {
-  rss: 952156160,
-  heapTotal: 89112576,
-  heapUsed: 60802896,
-  external: 2688808,
-  arrayBuffers: 695244
-} os memoryUsage :31.925933837890625
-[2024-07-29T10:39:18.291] [DEBUG] debug-file - default@PackageHap work[5] done.
-[2024-07-29T10:39:18.291] [DEBUG] debug-file - A work dispatched to worker[10] failed because unable to get work from ready queue.
-[2024-07-29T10:39:18.292] [INFO] debug-file - Finished :sdkdemo:default@PackageHap... after 237 ms 
-[2024-07-29T10:39:18.292] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-29T10:39:18.292] [DEBUG] debug-file - jsonObjWithoutParam {"name":"sdkdemo","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
-[2024-07-29T10:39:18.293] [DEBUG] debug-file - Executing task :sdkdemo:default@SignHap
-[2024-07-29T10:39:18.300] [DEBUG] debug-file - Use tool [/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/toolchains/lib/hap-sign-tool.jar]
- [
-  'java',
-  '-jar',
-  '/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/toolchains/lib/hap-sign-tool.jar',
-  'sign-app',
-  '-mode',
-  'localSign',
-  '-keystoreFile',
-  '/Users/heyu/.ohos/config/default_iot_link_ohos_3fO_LQrygN0ktxtGM0dB8ecDQJHPl2MfTGeXEGJ5tcQ=.p12',
-  '-keystorePwd',
-  '******',
-  '-keyAlias',
-  'debugKey',
-  '-keyPwd',
-  '******',
-  '-signAlg',
-  'SHA256withECDSA',
-  '-profileFile',
-  '/Users/heyu/.ohos/config/default_iot_link_ohos_3fO_LQrygN0ktxtGM0dB8ecDQJHPl2MfTGeXEGJ5tcQ=.p7b',
-  '-appCertFile',
-  '/Users/heyu/.ohos/config/default_iot_link_ohos_3fO_LQrygN0ktxtGM0dB8ecDQJHPl2MfTGeXEGJ5tcQ=.cer',
-  '-inFile',
-  '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/outputs/default/sdkdemo-default-unsigned.hap',
-  '-outFile',
-  '/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/outputs/default/sdkdemo-default-signed.hap'
-]
-[2024-07-29T10:39:18.890] [DEBUG] debug-file - java daemon socket received message:{"code":0,"message":"verify profile success"}
-[2024-07-29T10:39:18.892] [DEBUG] debug-file - java daemon socket close code:1000 reason:close by user
-[2024-07-29T10:39:18.917] [DEBUG] debug-file - on stdout: 07-29 10:39:18 INFO  - certificate in profile: 贺宇(781038133419462721)\\
-
-[2024-07-29T10:39:18.942] [DEBUG] debug-file - on stdout: 07-29 10:39:18 INFO  - Start to sign code.
-
-[2024-07-29T10:39:18.943] [DEBUG] debug-file - on stdout: 07-29 10:39:18 INFO  - profile type is: debug
-
-[2024-07-29T10:39:19.008] [DEBUG] debug-file - on stdout: 07-29 10:39:19 INFO  - /Users/heyu/.ohos/config/default_iot_link_ohos_3fO_LQrygN0ktxtGM0dB8ecDQJHPl2MfTGeXEGJ5tcQ=.p12 is exist. Try to load it with given passwd
-
-[2024-07-29T10:39:19.063] [DEBUG] debug-file - on stdout: 07-29 10:39:19 INFO  - Create a sign info successfully.
-
-[2024-07-29T10:39:19.076] [DEBUG] debug-file - on stdout: 07-29 10:39:19 INFO  - Create a sign info successfully.
-
-[2024-07-29T10:39:19.083] [DEBUG] debug-file - on stdout: 07-29 10:39:19 INFO  - Create a sign info successfully.
-
-[2024-07-29T10:39:19.112] [DEBUG] debug-file - on stdout: 07-29 10:39:19 INFO  - Create a sign info successfully.
-
-[2024-07-29T10:39:19.116] [DEBUG] debug-file - on stdout: 07-29 10:39:19 INFO  - Create a sign info successfully.
-
-[2024-07-29T10:39:19.119] [DEBUG] debug-file - on stdout: 07-29 10:39:19 INFO  - Create a sign info successfully.
-
-[2024-07-29T10:39:19.126] [DEBUG] debug-file - on stdout: 07-29 10:39:19 INFO  - Create a sign info successfully.
-
-[2024-07-29T10:39:19.140] [DEBUG] debug-file - on stdout: 07-29 10:39:19 INFO  - Create a sign info successfully.
-
-[2024-07-29T10:39:19.145] [DEBUG] debug-file - on stdout: 07-29 10:39:19 INFO  - Create a sign info successfully.
-
-[2024-07-29T10:39:19.151] [DEBUG] debug-file - on stdout: 07-29 10:39:19 INFO  - Create a sign info successfully.
-
-[2024-07-29T10:39:19.159] [DEBUG] debug-file - on stdout: 07-29 10:39:19 INFO  - Create a sign info successfully.
-
-[2024-07-29T10:39:19.190] [DEBUG] debug-file - on stdout: 07-29 10:39:19 INFO  - Create a sign info successfully.
-
-[2024-07-29T10:39:19.193] [DEBUG] debug-file - on stdout: 07-29 10:39:19 INFO  - Create a sign info successfully.
-
-[2024-07-29T10:39:19.197] [DEBUG] debug-file - on stdout: 07-29 10:39:19 INFO  - Create a sign info successfully.
-
-[2024-07-29T10:39:19.205] [DEBUG] debug-file - on stdout: 07-29 10:39:19 INFO  - Create a sign info successfully.
-
-[2024-07-29T10:39:19.211] [DEBUG] debug-file - on stdout: 07-29 10:39:19 INFO  - Create a sign info successfully.
-
-[2024-07-29T10:39:19.213] [DEBUG] debug-file - on stdout: 07-29 10:39:19 INFO  - Sign successfully.
-
-[2024-07-29T10:39:19.383] [DEBUG] debug-file - on stdout: 07-29 10:39:19 INFO  - Add sign data in sign info list success.
-
-[2024-07-29T10:39:19.385] [DEBUG] debug-file - on stdout: 07-29 10:39:19 INFO  - Generate signing block success, begin write it to output file
-
-[2024-07-29T10:39:19.385] [DEBUG] debug-file - on stdout: 07-29 10:39:19 INFO  - Sign Hap success!
-
-[2024-07-29T10:39:19.386] [DEBUG] debug-file - java daemon socket received message:{"code":0,"message":"sign app success"}
-[2024-07-29T10:39:19.386] [DEBUG] debug-file - sdkdemo : default@SignHap cost memory 1.3653030395507812
-[2024-07-29T10:39:19.386] [DEBUG] debug-file - runTaskFromQueue task cost before running: 5 s 655 ms 
-[2024-07-29T10:39:19.386] [INFO] debug-file - Finished :sdkdemo:default@SignHap... after 1 s 93 ms 
-[2024-07-29T10:39:19.387] [DEBUG] debug-file - Executing task :sdkdemo:assembleHap
-[2024-07-29T10:39:19.387] [DEBUG] debug-file - sdkdemo : assembleHap cost memory 0.01157379150390625
-[2024-07-29T10:39:19.387] [DEBUG] debug-file - runTaskFromQueue task cost before running: 5 s 656 ms 
-[2024-07-29T10:39:19.387] [INFO] debug-file - Finished :sdkdemo:assembleHap... after 1 ms 
-[2024-07-29T10:39:19.387] [DEBUG] debug-file - Update task sdkdemo:default@PreBuild input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/AppScope/app.json5 cache by regenerate.
-[2024-07-29T10:39:19.388] [DEBUG] debug-file - Update task sdkdemo:default@PreBuild input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/src/main/module.json5 cache by regenerate.
-[2024-07-29T10:39:19.388] [DEBUG] debug-file - Update task sdkdemo:default@PreBuild input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/build-profile.json5 cache by regenerate.
-[2024-07-29T10:39:19.388] [DEBUG] debug-file - Update task sdkdemo:default@PreBuild input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build-profile.json5 cache by regenerate.
-[2024-07-29T10:39:19.388] [DEBUG] debug-file - Update task sdkdemo:default@PreBuild input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/src/main/resources/base/profile/router_map.json cache by regenerate.
-[2024-07-29T10:39:19.388] [DEBUG] debug-file - Update task sdkdemo:default@PreBuild input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/src/main/resources/base/profile/main_pages.json cache by regenerate.
-[2024-07-29T10:39:19.388] [DEBUG] debug-file - Update task sdkdemo:default@PreBuild input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/hvigor/hvigor-config.json5 cache by regenerate.
-[2024-07-29T10:39:19.388] [DEBUG] debug-file - Update task sdkdemo:default@PreBuild input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/src/mock/mock-config.json5 cache by regenerate.
-[2024-07-29T10:39:19.388] [DEBUG] debug-file - Update task sdkdemo:default@PreBuild input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/oh-package.json5 cache by regenerate.
-[2024-07-29T10:39:19.388] [DEBUG] debug-file - Incremental task sdkdemo:default@PreBuild post-execution cost:1 ms .
-[2024-07-29T10:39:19.388] [DEBUG] debug-file - Update task sdkdemo:default@GenerateMetadata input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/src/main/module.json5 cache by regenerate.
-[2024-07-29T10:39:19.388] [DEBUG] debug-file - Update task sdkdemo:default@GenerateMetadata output file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/hap_metadata/default/output_metadata.json cache.
-[2024-07-29T10:39:19.389] [DEBUG] debug-file - Incremental task sdkdemo:default@GenerateMetadata post-execution cost:1 ms .
-[2024-07-29T10:39:19.389] [DEBUG] debug-file - Update task sdkdemo:default@MergeProfile input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/AppScope/app.json5 cache by regenerate.
-[2024-07-29T10:39:19.389] [DEBUG] debug-file - Update task sdkdemo:default@MergeProfile input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/build-profile.json5 cache by regenerate.
-[2024-07-29T10:39:19.389] [DEBUG] debug-file - Update task sdkdemo:default@MergeProfile input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/src/main/module.json5 cache by regenerate.
-[2024-07-29T10:39:19.389] [DEBUG] debug-file - Update task sdkdemo:default@MergeProfile input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencent+mmkv@1.3.9/oh_modules/@tencent/mmkv/src/main/module.json cache by regenerate.
-[2024-07-29T10:39:19.389] [DEBUG] debug-file - Update task sdkdemo:default@MergeProfile input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@hw-agconnect+petal-aegis@1.4.7-301/oh_modules/@hw-agconnect/petal-aegis/src/main/module.json cache by regenerate.
-[2024-07-29T10:39:19.389] [DEBUG] debug-file - Update task sdkdemo:default@MergeProfile input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencentyun+libiotvideo@1.0.1/oh_modules/@tencentyun/libiotvideo/src/main/module.json cache by regenerate.
-[2024-07-29T10:39:19.389] [DEBUG] debug-file - Update task sdkdemo:default@MergeProfile input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@ohos+ijkplayer@2.0.4/oh_modules/@ohos/ijkplayer/src/main/module.json cache by regenerate.
-[2024-07-29T10:39:19.389] [DEBUG] debug-file - Update task sdkdemo:default@MergeProfile output file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/merge_profile/default/module.json cache.
-[2024-07-29T10:39:19.389] [DEBUG] debug-file - Incremental task sdkdemo:default@MergeProfile post-execution cost:1 ms .
-[2024-07-29T10:39:19.389] [DEBUG] debug-file - Update task sdkdemo:default@CreateBuildProfile input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/AppScope/app.json5 cache by regenerate.
-[2024-07-29T10:39:19.389] [DEBUG] debug-file - Update task sdkdemo:default@CreateBuildProfile input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/build-profile.json5 cache by regenerate.
-[2024-07-29T10:39:19.389] [DEBUG] debug-file - Update task sdkdemo:default@CreateBuildProfile output file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/generated/profile/default/BuildProfile.ets cache.
-[2024-07-29T10:39:19.389] [DEBUG] debug-file - Incremental task sdkdemo:default@CreateBuildProfile post-execution cost:1 ms .
-[2024-07-29T10:39:19.389] [DEBUG] debug-file - Update task sdkdemo:default@GeneratePkgContextInfo output file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/loader/default/pkgContextInfo.json cache.
-[2024-07-29T10:39:19.389] [DEBUG] debug-file - Incremental task sdkdemo:default@GeneratePkgContextInfo post-execution cost:1 ms .
-[2024-07-29T10:39:19.389] [DEBUG] debug-file - Update task sdkdemo:default@ProcessIntegratedHsp output file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/build/cache/default/integrated_hsp/integratedHspCache.json cache.
-[2024-07-29T10:39:19.390] [DEBUG] debug-file - Incremental task sdkdemo:default@ProcessIntegratedHsp post-execution cost:1 ms .
-[2024-07-29T10:39:19.390] [DEBUG] debug-file - Update task sdkdemo:default@MakePackInfo input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/AppScope/app.json5 cache by regenerate.
-[2024-07-29T10:39:19.390] [DEBUG] debug-file - Update task sdkdemo:default@MakePackInfo input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/src/main/module.json5 cache by regenerate.
-[2024-07-29T10:39:19.390] [DEBUG] debug-file - Update task sdkdemo:default@MakePackInfo input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/build-profile.json5 cache by regenerate.
-[2024-07-29T10:39:19.390] [DEBUG] debug-file - Update task sdkdemo:default@MakePackInfo output file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/outputs/default/pack.info cache.
-[2024-07-29T10:39:19.390] [DEBUG] debug-file - Incremental task sdkdemo:default@MakePackInfo post-execution cost:1 ms .
-[2024-07-29T10:39:19.390] [DEBUG] debug-file - Update task sdkdemo:default@ProcessProfile input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/merge_profile/default/module.json cache by regenerate.
-[2024-07-29T10:39:19.390] [DEBUG] debug-file - Update task sdkdemo:default@ProcessProfile output file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/process_profile/default/module.json cache.
-[2024-07-29T10:39:19.390] [DEBUG] debug-file - Incremental task sdkdemo:default@ProcessProfile post-execution cost:1 ms .
-[2024-07-29T10:39:19.390] [DEBUG] debug-file - Update task sdkdemo:default@SyscapTransform input file:/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/toolchains/syscap_tool cache by regenerate.
-[2024-07-29T10:39:19.390] [DEBUG] debug-file - Update task sdkdemo:default@SyscapTransform input file:/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/device-define cache by regenerate.
-[2024-07-29T10:39:19.390] [DEBUG] debug-file - Update task sdkdemo:default@SyscapTransform output file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/syscap/default/rpcid.sc cache.
-[2024-07-29T10:39:19.390] [DEBUG] debug-file - Incremental task sdkdemo:default@SyscapTransform post-execution cost:1 ms .
-[2024-07-29T10:39:19.390] [DEBUG] debug-file - Update task sdkdemo:default@ProcessRouterMap input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/oh-package.json5 cache by regenerate.
-[2024-07-29T10:39:19.391] [DEBUG] debug-file - Update task sdkdemo:default@ProcessRouterMap input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh-package.json5 cache by regenerate.
-[2024-07-29T10:39:19.391] [DEBUG] debug-file - Update task sdkdemo:default@ProcessRouterMap input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/src/main/module.json5 cache by regenerate.
-[2024-07-29T10:39:19.391] [DEBUG] debug-file - Update task sdkdemo:default@ProcessRouterMap input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/src/main/resources/base/profile/router_map.json cache by regenerate.
-[2024-07-29T10:39:19.391] [DEBUG] debug-file - Update task sdkdemo:default@ProcessRouterMap output file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/router_map/default/router_map.json cache.
-[2024-07-29T10:39:19.391] [DEBUG] debug-file - Update task sdkdemo:default@ProcessRouterMap output file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/router_map/default/intermediate_routerMap_for_loader.json cache.
-[2024-07-29T10:39:19.391] [DEBUG] debug-file - Incremental task sdkdemo:default@ProcessRouterMap post-execution cost:1 ms .
-[2024-07-29T10:39:19.391] [DEBUG] debug-file - Update task sdkdemo:default@ProcessResource output file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/res/default/resConfig.json cache.
-[2024-07-29T10:39:19.391] [DEBUG] debug-file - Incremental task sdkdemo:default@ProcessResource post-execution cost:1 ms .
-[2024-07-29T10:39:19.392] [DEBUG] debug-file - Update task sdkdemo:default@GenerateLoaderJson input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/src/mock/mock-config.json5 cache by regenerate.
-[2024-07-29T10:39:19.392] [DEBUG] debug-file - Update task sdkdemo:default@GenerateLoaderJson input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/router_map/default/intermediate_routerMap_for_loader.json cache by regenerate.
-[2024-07-29T10:39:19.392] [DEBUG] debug-file - Update task sdkdemo:default@GenerateLoaderJson input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/router_map/default/router_map.json cache by regenerate.
-[2024-07-29T10:39:19.392] [DEBUG] debug-file - Update task sdkdemo:default@GenerateLoaderJson output file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/loader/default/loader.json cache.
-[2024-07-29T10:39:19.392] [DEBUG] debug-file - Incremental task sdkdemo:default@GenerateLoaderJson post-execution cost:2 ms .
-[2024-07-29T10:39:19.392] [DEBUG] debug-file - Update task sdkdemo:default@ProcessLibs input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencent+mmkv@1.3.9/oh_modules/@tencent/mmkv/libs cache by regenerate.
-[2024-07-29T10:39:19.392] [DEBUG] debug-file - Update task sdkdemo:default@ProcessLibs input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@hw-agconnect+petal-aegis@1.4.7-301/oh_modules/@hw-agconnect/petal-aegis/libs cache by regenerate.
-[2024-07-29T10:39:19.392] [DEBUG] debug-file - Update task sdkdemo:default@ProcessLibs input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencentyun+libiotvideo@1.0.1/oh_modules/@tencentyun/libiotvideo/libs cache by regenerate.
-[2024-07-29T10:39:19.392] [DEBUG] debug-file - Update task sdkdemo:default@ProcessLibs input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@ohos+ijkplayer@2.0.4/oh_modules/@ohos/ijkplayer/libs cache by regenerate.
-[2024-07-29T10:39:19.392] [DEBUG] debug-file - Update task sdkdemo:default@ProcessLibs input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/build-profile.json5 cache by regenerate.
-[2024-07-29T10:39:19.393] [DEBUG] debug-file - Update task sdkdemo:default@ProcessLibs input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build-profile.json5 cache by regenerate.
-[2024-07-29T10:39:19.393] [DEBUG] debug-file - Update task sdkdemo:default@ProcessLibs output file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default cache.
-[2024-07-29T10:39:19.393] [DEBUG] debug-file - Incremental task sdkdemo:default@ProcessLibs post-execution cost:2 ms .
-[2024-07-29T10:39:19.393] [DEBUG] debug-file - Update task sdkdemo:default@CompileResource input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/src/main/resources cache by regenerate.
-[2024-07-29T10:39:19.394] [DEBUG] debug-file - Update task sdkdemo:default@CompileResource input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencent+mmkv@1.3.9/oh_modules/@tencent/mmkv/src/main/resources cache by regenerate.
-[2024-07-29T10:39:19.394] [DEBUG] debug-file - Update task sdkdemo:default@CompileResource input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencentyun+libiotvideo@1.0.1/oh_modules/@tencentyun/libiotvideo/src/main/resources cache by regenerate.
-[2024-07-29T10:39:19.394] [DEBUG] debug-file - Update task sdkdemo:default@CompileResource input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@ohos+ijkplayer@2.0.4/oh_modules/@ohos/ijkplayer/src/main/resources cache by regenerate.
-[2024-07-29T10:39:19.395] [DEBUG] debug-file - Update task sdkdemo:default@CompileResource input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/AppScope/resources cache by regenerate.
-[2024-07-29T10:39:19.395] [DEBUG] debug-file - Update task sdkdemo:default@CompileResource input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/process_profile/default/module.json cache by regenerate.
-[2024-07-29T10:39:19.395] [DEBUG] debug-file - Update task sdkdemo:default@CompileResource input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/router_map/default/router_map.json cache by regenerate.
-[2024-07-29T10:39:19.395] [DEBUG] debug-file - Update task sdkdemo:default@CompileResource input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/res/default/resConfig.json cache by regenerate.
-[2024-07-29T10:39:19.395] [DEBUG] debug-file - Update task sdkdemo:default@CompileResource output file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/res/default cache.
-[2024-07-29T10:39:19.395] [DEBUG] debug-file - Update task sdkdemo:default@CompileResource output file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/generated/r/default/ResourceTable.h cache.
-[2024-07-29T10:39:19.395] [DEBUG] debug-file - Update task sdkdemo:default@CompileResource output file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/generated/r/default cache.
-[2024-07-29T10:39:19.395] [DEBUG] debug-file - Incremental task sdkdemo:default@CompileResource post-execution cost:3 ms .
-[2024-07-29T10:39:19.396] [DEBUG] debug-file - Update task sdkdemo:default@CompileArkTS input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/loader/default cache by regenerate.
-[2024-07-29T10:39:19.396] [DEBUG] debug-file - Update task sdkdemo:default@CompileArkTS input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencent+mmkv@1.3.9/oh_modules/@tencent/mmkv/Index.ets cache by regenerate.
-[2024-07-29T10:39:19.396] [DEBUG] debug-file - Update task sdkdemo:default@CompileArkTS input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@hw-agconnect+petal-aegis@1.4.7-301/oh_modules/@hw-agconnect/petal-aegis/index.js cache by regenerate.
-[2024-07-29T10:39:19.396] [DEBUG] debug-file - Update task sdkdemo:default@CompileArkTS input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencentyun+libiotvideo@1.0.1/oh_modules/@tencentyun/libiotvideo/Index.ets cache by regenerate.
-[2024-07-29T10:39:19.396] [DEBUG] debug-file - Update task sdkdemo:default@CompileArkTS input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@ohos+ijkplayer@2.0.4/oh_modules/@ohos/ijkplayer/index.ets cache by regenerate.
-[2024-07-29T10:39:19.396] [DEBUG] debug-file - Update task sdkdemo:default@CompileArkTS input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencent+mmkv@1.3.9/oh_modules/@tencent/mmkv/src/main/ets cache by regenerate.
-[2024-07-29T10:39:19.396] [DEBUG] debug-file - Update task sdkdemo:default@CompileArkTS input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@hw-agconnect+petal-aegis@1.4.7-301/oh_modules/@hw-agconnect/petal-aegis/src/main/ets cache by regenerate.
-[2024-07-29T10:39:19.397] [DEBUG] debug-file - Update task sdkdemo:default@CompileArkTS input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencentyun+libiotvideo@1.0.1/oh_modules/@tencentyun/libiotvideo/src/main/ets cache by regenerate.
-[2024-07-29T10:39:19.397] [DEBUG] debug-file - Update task sdkdemo:default@CompileArkTS input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@ohos+ijkplayer@2.0.4/oh_modules/@ohos/ijkplayer/src/main/ets cache by regenerate.
-[2024-07-29T10:39:19.398] [DEBUG] debug-file - Update task sdkdemo:default@CompileArkTS input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/res/default/resources/rawfile cache by regenerate.
-[2024-07-29T10:39:19.398] [DEBUG] debug-file - Update task sdkdemo:default@CompileArkTS input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/res/default/ResourceTable.txt cache by regenerate.
-[2024-07-29T10:39:19.398] [DEBUG] debug-file - Update task sdkdemo:default@CompileArkTS input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/res/default/module.json cache by regenerate.
-[2024-07-29T10:39:19.398] [DEBUG] debug-file - Update task sdkdemo:default@CompileArkTS input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/res/default/resources/base/profile cache by regenerate.
-[2024-07-29T10:39:19.398] [DEBUG] debug-file - Update task sdkdemo:default@CompileArkTS input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/src/main/ets cache by regenerate.
-[2024-07-29T10:39:19.399] [DEBUG] debug-file - Update task sdkdemo:default@CompileArkTS input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/generated/profile/default/BuildProfile.ets cache by regenerate.
-[2024-07-29T10:39:19.399] [DEBUG] debug-file - Update task sdkdemo:default@CompileArkTS input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/src/mock/mock-config.json5 cache by regenerate.
-[2024-07-29T10:39:19.399] [DEBUG] debug-file - Update task sdkdemo:default@CompileArkTS output file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/loader_out/default/ets cache.
-[2024-07-29T10:39:19.399] [DEBUG] debug-file - Incremental task sdkdemo:default@CompileArkTS post-execution cost:4 ms .
-[2024-07-29T10:39:19.399] [DEBUG] debug-file - Update task sdkdemo:default@BuildJS input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/loader/default cache by regenerate.
-[2024-07-29T10:39:19.399] [DEBUG] debug-file - Update task sdkdemo:default@BuildJS input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencent+mmkv@1.3.9/oh_modules/@tencent/mmkv/Index.ets cache by regenerate.
-[2024-07-29T10:39:19.399] [DEBUG] debug-file - Update task sdkdemo:default@BuildJS input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@hw-agconnect+petal-aegis@1.4.7-301/oh_modules/@hw-agconnect/petal-aegis/index.js cache by regenerate.
-[2024-07-29T10:39:19.399] [DEBUG] debug-file - Update task sdkdemo:default@BuildJS input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@tencentyun+libiotvideo@1.0.1/oh_modules/@tencentyun/libiotvideo/Index.ets cache by regenerate.
-[2024-07-29T10:39:19.399] [DEBUG] debug-file - Update task sdkdemo:default@BuildJS input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/oh_modules/.ohpm/@ohos+ijkplayer@2.0.4/oh_modules/@ohos/ijkplayer/index.ets cache by regenerate.
-[2024-07-29T10:39:19.399] [DEBUG] debug-file - Update task sdkdemo:default@BuildJS input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/res/default/resources/rawfile cache by regenerate.
-[2024-07-29T10:39:19.399] [DEBUG] debug-file - Update task sdkdemo:default@BuildJS input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/res/default/ResourceTable.txt cache by regenerate.
-[2024-07-29T10:39:19.399] [DEBUG] debug-file - Update task sdkdemo:default@BuildJS input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/res/default/module.json cache by regenerate.
-[2024-07-29T10:39:19.399] [DEBUG] debug-file - Update task sdkdemo:default@BuildJS input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/res/default/resources/base/profile cache by regenerate.
-[2024-07-29T10:39:19.399] [DEBUG] debug-file - Update task sdkdemo:default@BuildJS output file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/loader_out/default/js cache.
-[2024-07-29T10:39:19.399] [DEBUG] debug-file - Incremental task sdkdemo:default@BuildJS post-execution cost:1 ms .
-[2024-07-29T10:39:19.399] [DEBUG] debug-file - Update task sdkdemo:default@DoNativeStrip input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default cache by regenerate.
-[2024-07-29T10:39:19.400] [DEBUG] debug-file - Update task sdkdemo:default@DoNativeStrip output file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/stripped_native_libs/default cache.
-[2024-07-29T10:39:19.400] [DEBUG] debug-file - Incremental task sdkdemo:default@DoNativeStrip post-execution cost:1 ms .
-[2024-07-29T10:39:19.400] [DEBUG] debug-file - Update task sdkdemo:default@CacheNativeLibs input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/libs/default cache by regenerate.
-[2024-07-29T10:39:19.400] [DEBUG] debug-file - Update task sdkdemo:default@CacheNativeLibs input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/stripped_native_libs/default cache by regenerate.
-[2024-07-29T10:39:19.401] [DEBUG] debug-file - Update task sdkdemo:default@CacheNativeLibs output file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/patch/default/base_native_libs.json cache.
-[2024-07-29T10:39:19.401] [DEBUG] debug-file - Incremental task sdkdemo:default@CacheNativeLibs post-execution cost:1 ms .
-[2024-07-29T10:39:19.401] [DEBUG] debug-file - Update task sdkdemo:default@GeneratePkgModuleJson input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/res/default/module.json cache by regenerate.
-[2024-07-29T10:39:19.401] [DEBUG] debug-file - Update task sdkdemo:default@GeneratePkgModuleJson output file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/package/default/module.json cache.
-[2024-07-29T10:39:19.401] [DEBUG] debug-file - Incremental task sdkdemo:default@GeneratePkgModuleJson post-execution cost:1 ms .
-[2024-07-29T10:39:19.401] [DEBUG] debug-file - Update task sdkdemo:default@PackageHap input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/stripped_native_libs/default cache by regenerate.
-[2024-07-29T10:39:19.401] [DEBUG] debug-file - Update task sdkdemo:default@PackageHap input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/res/default/module.json cache by regenerate.
-[2024-07-29T10:39:19.401] [DEBUG] debug-file - Update task sdkdemo:default@PackageHap input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/res/default/resources cache by regenerate.
-[2024-07-29T10:39:19.401] [DEBUG] debug-file - Update task sdkdemo:default@PackageHap input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/res/default/resources.index cache by regenerate.
-[2024-07-29T10:39:19.402] [DEBUG] debug-file - Update task sdkdemo:default@PackageHap input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/outputs/default/pack.info cache by regenerate.
-[2024-07-29T10:39:19.402] [DEBUG] debug-file - Update task sdkdemo:default@PackageHap input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/intermediates/loader_out/default/ets cache by regenerate.
-[2024-07-29T10:39:19.402] [DEBUG] debug-file - Update task sdkdemo:default@PackageHap input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/generated/profile/default/BuildProfile.ets cache by regenerate.
-[2024-07-29T10:39:19.402] [DEBUG] debug-file - Update task sdkdemo:default@PackageHap output file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/outputs/default/sdkdemo-default-unsigned.hap cache.
-[2024-07-29T10:39:19.402] [DEBUG] debug-file - Update task sdkdemo:default@PackageHap output file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/outputs/default/mapping/sourceMaps.map cache.
-[2024-07-29T10:39:19.402] [DEBUG] debug-file - Incremental task sdkdemo:default@PackageHap post-execution cost:2 ms .
-[2024-07-29T10:39:19.402] [DEBUG] debug-file - Update task sdkdemo:default@SignHap input file:/Users/heyu/.ohos/config/default_iot_link_ohos_3fO_LQrygN0ktxtGM0dB8ecDQJHPl2MfTGeXEGJ5tcQ=.cer cache by regenerate.
-[2024-07-29T10:39:19.402] [DEBUG] debug-file - Update task sdkdemo:default@SignHap input file:/Users/heyu/.ohos/config/default_iot_link_ohos_3fO_LQrygN0ktxtGM0dB8ecDQJHPl2MfTGeXEGJ5tcQ=.p7b cache by regenerate.
-[2024-07-29T10:39:19.402] [DEBUG] debug-file - Update task sdkdemo:default@SignHap input file:/Users/heyu/.ohos/config/default_iot_link_ohos_3fO_LQrygN0ktxtGM0dB8ecDQJHPl2MfTGeXEGJ5tcQ=.p12 cache by regenerate.
-[2024-07-29T10:39:19.402] [DEBUG] debug-file - Update task sdkdemo:default@SignHap input file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/outputs/default/sdkdemo-default-unsigned.hap cache by regenerate.
-[2024-07-29T10:39:19.402] [DEBUG] debug-file - Update task sdkdemo:default@SignHap output file:/Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/build/default/outputs/default/sdkdemo-default-signed.hap cache.
-[2024-07-29T10:39:19.402] [DEBUG] debug-file - Incremental task sdkdemo:default@SignHap post-execution cost:1 ms .
+[2024-11-13T10:45:18.737] [DEBUG] debug-file - Module sdkdemo task initialization takes 1 ms 
+[2024-11-13T10:45:18.737] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2024-11-13T10:45:18.737] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/hvigorfile.ts
+[2024-11-13T10:45:18.737] [DEBUG] debug-file - hvigorfile, resolve finished /Users/heyu/DevEcoStudioProjects/iot-link-ohos/sdkdemo/hvigorfile.ts
+[2024-11-13T10:45:18.763] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 26 ms 
+[2024-11-13T10:45:18.764] [DEBUG] debug-file - project has submodules:entry,sdkdemo
+[2024-11-13T10:45:18.764] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2024-11-13T10:45:18.765] [DEBUG] debug-file - load to the disk finished
+[2024-11-13T10:45:18.765] [DEBUG] debug-file - Module iot-link-ohos Collected Dependency: 
+[2024-11-13T10:45:18.765] [DEBUG] debug-file - Module iot-link-ohos's total dependency: 0
+[2024-11-13T10:45:18.765] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2024-11-13T10:45:18.765] [DEBUG] debug-file - Module entry's total dependency: 0
+[2024-11-13T10:45:18.766] [DEBUG] debug-file - Module sdkdemo Collected Dependency: 
+[2024-11-13T10:45:18.766] [DEBUG] debug-file - Module sdkdemo's total dependency: 0
+[2024-11-13T10:45:18.766] [DEBUG] debug-file - Configuration phase cost:64 ms 
+[2024-11-13T10:45:18.767] [DEBUG] debug-file - Configuration task cost before running: 71 ms 
+[2024-11-13T10:45:18.767] [DEBUG] debug-file - Executing task :entry:init
+[2024-11-13T10:45:18.767] [DEBUG] debug-file - entry : init cost memory 0.0167388916015625
+[2024-11-13T10:45:18.767] [DEBUG] debug-file - runTaskFromQueue task cost before running: 71 ms 
+[2024-11-13T10:45:18.767] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2024-11-13T10:45:18.767] [DEBUG] debug-file - Executing task :sdkdemo:init
+[2024-11-13T10:45:18.767] [DEBUG] debug-file - sdkdemo : init cost memory 0.0116729736328125
+[2024-11-13T10:45:18.767] [DEBUG] debug-file - runTaskFromQueue task cost before running: 71 ms 
+[2024-11-13T10:45:18.767] [INFO] debug-file - Finished :sdkdemo:init... after 1 ms 
+[2024-11-13T10:45:18.767] [DEBUG] debug-file - Executing task ::init
+[2024-11-13T10:45:18.767] [DEBUG] debug-file - iot-link-ohos : init cost memory 0.011688232421875
+[2024-11-13T10:45:18.767] [DEBUG] debug-file - runTaskFromQueue task cost before running: 72 ms 
+[2024-11-13T10:45:18.767] [INFO] debug-file - Finished ::init... after 1 ms 
+[2024-11-13T10:45:18.769] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2024-11-13T10:45:18.770] [DEBUG] debug-file - Module 'entry' target 'ohosTest' using build option: {
+  "debuggable": true,
+  "name": "default"
+} in this build.
+[2024-11-13T10:45:18.771] [DEBUG] debug-file - Module 'sdkdemo' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2024-11-13T10:45:18.772] [DEBUG] debug-file - Module 'sdkdemo' target 'ohosTest' using build option: {
+  "debuggable": true,
+  "name": "default"
+} in this build.

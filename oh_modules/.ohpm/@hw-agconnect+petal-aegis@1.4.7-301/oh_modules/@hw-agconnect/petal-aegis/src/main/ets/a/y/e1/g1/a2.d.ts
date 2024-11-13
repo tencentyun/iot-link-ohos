@@ -1,1 +1,0 @@
-import { Cipher } from "../f1"; import type { CipherAlg, CipherParamsSpec } from "../i1"; export declare class HuksAESCipher extends Cipher { constructor(d47: CipherAlg, keyAlias: string, e47: CipherParamsSpec); } 
